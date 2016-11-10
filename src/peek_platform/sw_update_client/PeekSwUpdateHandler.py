@@ -52,7 +52,7 @@ class PeekSwUpdateHandler(object):
 
         for swVersionInfo in payload.tuples:
             if swVersionInfo.name == self.PEEK_PLATFORM:
-                if self._config.platformVersion != swVersionInfo.version:
+                if PeekPlatformConfig.config.platformVersion != swVersionInfo.version:
                     logger.info("Recieved platform update new version is %s, we're %s",
                                 swVersionInfo.version,
                                 PeekPlatformConfig.config.platformVersion)

@@ -38,7 +38,7 @@ class PeekSwUpdateManager:
 
         from peek_platform import PeekPlatformConfig
 
-        url = ('http://%(ip)s:%(port)s/peek_server.sw_update_client.download?'
+        url = ('http://%(ip)s:%(port)s/peek_server.sw_update_client.platform.download?'
                ) % {"ip": PeekPlatformConfig.config.peekServerHost,
                     "port": PeekPlatformConfig.config.peekServerPort}
 

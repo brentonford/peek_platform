@@ -1,9 +1,11 @@
 import imp
+import logging
 import sys
 
 import os
 
-from peek_server.papp.ServerPlatformApi import ServerPlatformApi
+
+logger = logging.getLogger(__name__)
 
 
 class PappLoaderBase():
@@ -47,6 +49,11 @@ class PappLoaderBase():
         del self._loadedPapps[pappName]
         oldLoadedPapp.stop()
         oldLoadedPapp.unload()
+
+        if sys.getrefcount(oldLoadedPapp) > 2:
+            logger.warning("Old references to %s still exist, count = %s",
+                           pappName, sys.getrefcount(oldLoadedPapp))
+
         self.unloadPapp(pappName)
 
         # Unload the packages

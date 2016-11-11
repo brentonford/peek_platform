@@ -28,9 +28,12 @@ from rapui.util.RapuiHttpFileDownloader import rapuiHttpFileDownloader
 logger = logging.getLogger(__name__)
 
 
-class PeekSwUpdateManager:
+class PeekSwInstallManagerBase:
     def __init__(self):
         pass
+
+    def notifyOfPlatformVersionUpdate(self, newVersion):
+        self.installAndRestart(newVersion)
 
     @inlineCallbacks
     def update(self, targetVersion):
@@ -38,7 +41,7 @@ class PeekSwUpdateManager:
 
         from peek_platform import PeekPlatformConfig
 
-        url = ('http://%(ip)s:%(port)s/peek_server.sw_update_client.platform.download?'
+        url = ('http://%(ip)s:%(port)s/peek_server.sw_install.platform.download?'
                ) % {"ip": PeekPlatformConfig.config.peekServerHost,
                     "port": PeekPlatformConfig.config.peekServerPort}
 
@@ -57,6 +60,25 @@ class PeekSwUpdateManager:
         yield self._blockingInstallUpdate(targetVersion, dir, file)
 
         defer.returnValue(targetVersion)
+
+    @inlineCallbacks
+    def installAndRestart(self, targetVersion):
+
+        from peek_platform import PeekPlatformConfig
+
+        newSoftwareTar = os.path.join(
+            PeekPlatformConfig.config.platformSoftwarePath,
+            'peek_platform_%s' % targetVersion,
+            '%s_%s.tar.bz2' % (PeekPlatformConfig.componentName, targetVersion))
+
+        if not tarfile.is_tarfile(newSoftwareTar):
+            raise Exception("Uploaded archive is not a tar file")
+
+        directory = Directory()
+        tarfile.open(newSoftwareTar).extractall(directory.path)
+        directory.scan()
+
+        yield self._blockingInstallUpdate(targetVersion, dir, file)
 
     @deferToThreadWrap
     def _blockingInstallUpdate(self, targetVersion, dir, file):
@@ -92,11 +114,40 @@ class PeekSwUpdateManager:
 
         shutil.move(os.path.join(directory.path, runPycFile.path), newPath)
 
-        self._synlinkTo(PeekPlatformConfig.componentName, home,  newPath)
+        self._synlinkTo(PeekPlatformConfig.componentName, home, newPath)
+
+        # Stop the system, and update the code
+        try:
+            self._stopCode()
+            self._updateCode()
+        except Exception as e:
+            logger.exception(e)
+
+            # If the update failed revert to the old code
+            self._synlinkTo(PeekPlatformConfig.componentName, home, oldPath)
+
+            try:
+                # And start the system again
+                self._startCode()
+            except Exception as e:
+                logger.exception(e)
+                raise
+            raise
 
         PeekPlatformConfig.config.platformVersion = targetVersion
 
         reactor.callLater(1.0, self.restartProcess)
+
+        return targetVersion
+
+    def _stopCode(self):
+        pass
+
+    def _updateCode(self):
+        pass
+
+    def _startCode(self):
+        pass
 
     def _synlinkTo(self, componentName, home, newPath):
         symLink = os.path.join(home, componentName)
@@ -113,5 +164,5 @@ class PeekSwUpdateManager:
         saving data) must be done before calling this function."""
         python = sys.executable
         argv = list(sys.argv)
-        argv.insert(0,"-u")
+        argv.insert(0, "-u")
         os.execl(python, python, *argv)

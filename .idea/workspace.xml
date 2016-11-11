@@ -2,8 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd22ba02-bb56-472f-ac70-6c4075be77d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/bamboo_ut.sh" afterPath="$PROJECT_DIR$/../papp_noop/bamboo_ut.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/peek_platform/sw_version/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PappSwInstallManager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PeekSwInstallManager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/ServerUpdateManager.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/peek_platform/sw_update_client/PappSwUpdateManager.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateHandler.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionPollHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateManager.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwVersionTuple.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionTuple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/peek_platform/sw_update_client/__init__.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PappUpdateManager.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PappSwUploadManager.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PlatformUpdateManager.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/UpdateResource.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PappInfoUtil.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/PappSwVersionInfoUtil.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PappUpdateDownloadResource.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformUpdateDownloadResource.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformVersionHandler.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/PeekSwVersionDataHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/make_deploy.sh" afterPath="$PROJECT_DIR$/../papp_noop/make_deploy.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappServerMain.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappServerMain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/run_peek_agent.py" afterPath="$PROJECT_DIR$/../peek_agent/src/run_peek_agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py" afterPath="$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/client/peekadm/update/PeekAdmUpdatePappInfoHandler.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/client/peekadm/update/PeekAdmUpdatePappInfoHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/run_peek_server.py" afterPath="$PROJECT_DIR$/../peek_server/src/run_peek_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
     </list>
     <ignored path="peek_platform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,9 +46,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/peek_platform$run_peek_server.coverage" NAME="run_peek_server Coverage Results" MODIFIED="1478822613957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server/src" />
+    <SUITE FILE_PATH="coverage/peek_platform$run_peek_server.coverage" NAME="run_peek_server Coverage Results" MODIFIED="1478856574043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekAgentConfigTest.coverage" NAME="Unittests in PeekAgentConfigTest Coverage Results" MODIFIED="1478782922165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src/peek_agent" />
-    <SUITE FILE_PATH="coverage/peek_platform$run_peek_agent.coverage" NAME="run_peek_agent Coverage Results" MODIFIED="1478822604145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src" />
+    <SUITE FILE_PATH="coverage/peek_platform$run_peek_agent.coverage" NAME="run_peek_agent Coverage Results" MODIFIED="1478856582341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekFileConfigTest.coverage" NAME="Unittests in PeekFileConfigTest Coverage Results" MODIFIED="1478671481727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testPlatformDetails.coverage" NAME="Unittest PeekFileConfigTest.testPlatformDetails Coverage Results" MODIFIED="1478685839214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testSavingConfig.coverage" NAME="Unittest PeekFileConfigTest.testSavingConfig Coverage Results" MODIFIED="1478668312107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
@@ -36,42 +66,30 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="PlatformUpdateManager.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PlatformUpdateManager.py">
+          <file leaf-file-name="PeekSwUploadResource.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1125">
-                  <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+                <state relative-caret-position="315">
+                  <caret line="55" column="71" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="71" />
                   <folding>
-                    <element signature="e#0#13#0" expanded="true" />
+                    <element signature="e#259#270#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PeekAgentConfig.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentConfig.py">
+          <file leaf-file-name="PeekSwVersionPollHandler.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionPollHandler.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="40" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#300#314#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PlatformUpdateDownloadResource.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformUpdateDownloadResource.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/__init__.py">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
                   <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -80,18 +98,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="make_deploy.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../papp_noop/make_deploy.sh">
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bamboo_ut.sh" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../papp_noop/bamboo_ut.sh">
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PeekSwVersionTuple.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionTuple.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
                   <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
@@ -100,21 +138,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../papp_noop/.gitignore">
+          <file leaf-file-name="PappSwInstallManagerBase.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state relative-caret-position="433">
+                  <caret line="91" column="60" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_agent/.gitignore">
+          <file leaf-file-name="make_deploy.sh" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../papp_noop/make_deploy.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state relative-caret-position="450">
+                  <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -130,119 +168,81 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="run_peek_worker.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_worker/src/run_peek_worker.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-180">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="PeekServerRestartWatchHandler.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py">
+          <file leaf-file-name="PappServerLoader.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <state relative-caret-position="598">
+                  <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
                   <folding>
-                    <element signature="e#48#62#0" expanded="true" />
+                    <element signature="e#0#10#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PeekSwUpdateHandler.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateHandler.py">
+          <file leaf-file-name="PappServerLoaderTest.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                <state relative-caret-position="105">
+                  <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bamboo_ut.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_agent/bamboo_ut.sh">
+          <file leaf-file-name="PappSwUploadManager.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PappSwUploadManager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+                <state relative-caret-position="420">
+                  <caret line="43" column="54" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="PappSwDownloadResource.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="make_deploy.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_worker/make_deploy.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../json-cfg/setup.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="63" column="38" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="make_platform_deploy.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server/make_platform_deploy.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="make_deploy.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server/make_deploy.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="20" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PeekFileConfigBase.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="51" column="58" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="58" />
+                <state relative-caret-position="568">
+                  <caret line="68" column="46" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="46" />
                   <folding>
-                    <element signature="e#301#315#0" expanded="true" />
+                    <element signature="e#228#242#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ResourceUtil.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PeekSwDownloadResource.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="643">
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="run_peek_server.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server/src/run_peek_server.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="493">
+                  <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#266#304#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -266,57 +266,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../json-cfg/src/jsoncfg/tree_config.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPeekServerClientMixin.py" />
-        <option value="$PROJECT_DIR$/../json-cfg/src/jsoncfg/__init__.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigTest.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PappSwUpdateManager.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/PeekServerConfigCapabilities.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPlatformMixin.py" />
-        <option value="$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentConfig.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/PeekVortexClient.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwVersionTuple.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/PeekServerConfig.py" />
-        <option value="$PROJECT_DIR$/../papp_base/src/papp_base/storage/DbConnBase.py" />
-        <option value="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappServerMain.py" />
-        <option value="$PROJECT_DIR$/../papp_base/src/papp_base/PappServerMainBase.py" />
-        <option value="$PROJECT_DIR$/../json-cfg/src/jsoncfg/config_classes.py" />
-        <option value="$PROJECT_DIR$/../json-cfg/src/jsoncfg/functions.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py" />
-        <option value="$PROJECT_DIR$/../json-cfg/README.rst" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/PeekServerEchoHandler.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/run_peek_server.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PappUpdateDownloadResource.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformVersionHandler.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateHandler.py" />
-        <option value="$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentRestartHandler.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/client/peekadm/update/PeekAdmCapabilitiesHandler.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PlatformUpdateManager.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/ServerUpdateManager.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformUpdateDownloadResource.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateManager.py" />
-        <option value="$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentConfigTest.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/Util.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigSqlAlchemyMixin.py" />
-        <option value="$PROJECT_DIR$/../peek_agent/src/run_peek_agent.py" />
-        <option value="$PROJECT_DIR$/../peek_server/make_platform_deploy.sh" />
-        <option value="$PROJECT_DIR$/../papp_noop/make_deploy.sh" />
-        <option value="$PROJECT_DIR$/../peek_server/alembic.ini" />
-        <option value="$PROJECT_DIR$/../peek_agent/bamboo_ut.sh" />
-        <option value="$PROJECT_DIR$/../peek_server/make_deploy.sh" />
-        <option value="$PROJECT_DIR$/../peek_agent/make_deploy.sh" />
-        <option value="$PROJECT_DIR$/../peek_worker/make_deploy.sh" />
-        <option value="$PROJECT_DIR$/../peek_agent/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/../papp_noop/.gitignore" />
         <option value="$PROJECT_DIR$/../papp_noop/bamboo_ut.sh" />
+        <option value="$PROJECT_DIR$/../papp_noop/papp_version.json" />
+        <option value="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappServerMain.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_platform/__init__.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_platform/PlatformUpdateManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PappSwUpdateManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateManagerBase.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformVersionHandler.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/version_check/PeekSwVersionPollHandler.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/version_check/PeekSwVersionDataHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PappSwUpdateDownloadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PeekSwUpdateDownloadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PappUpdateManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/version_check/__init__.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PappSwUpdateManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PappSwUpdateManagerBase.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PappSwInstallManagerBase.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwInstallManagerBase.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_update_platform/PlatformSwBundleInstallManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PlatformSwBundleInstallManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwBundleInstallManagerBase.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/ServerUpdateManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PeekSwInstallManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PappSwUpdateManager.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwUpdateDownloadResource.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwUpdateDownloadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/UpdateResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PeekSwBundleInstallManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PeekSwBundleInstallManagerBase.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PeekSwUploadManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PappSwUploadManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PappSwInstallManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PeekSwVersionDataHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/PeekSwVersionDataHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PappSwUploadManager.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/run_peek_server.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwDownloadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionPollHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" />
+        <option value="$PROJECT_DIR$/../papp_noop/make_deploy.sh" />
       </list>
     </option>
   </component>
@@ -329,8 +329,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="y" value="26" />
-    <option name="width" value="1930" />
-    <option name="height" value="1179" />
+    <option name="width" value="2570" />
+    <option name="height" value="1419" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -424,6 +424,186 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sw_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sw_upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sw_install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sw_download" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="papp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="peek_agent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -435,16 +615,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="papp_noop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,18 +641,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui" />
+      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install" />
+      <recent name="$PROJECT_DIR$/../papp_noop/src/papp_noop" />
       <recent name="$PROJECT_DIR$/../papp_noop" />
       <recent name="$PROJECT_DIR$/../peek_agent/src/peek_agent" />
-      <recent name="$PROJECT_DIR$/src/peek_platform/file_config" />
-      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server" />
-      <recent name="$PROJECT_DIR$/src/peek_platform" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/peek_platform" />
-      <recent name="$PROJECT_DIR$/../papp_base" />
-      <recent name="$PROJECT_DIR$/src/peek_platform/file_config" />
-      <recent name="$PROJECT_DIR$/src/peek_platform/json_config" />
+      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download" />
+      <recent name="$PROJECT_DIR$/src/peek_platform/sw_install" />
+      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install" />
       <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server" />
+      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/papp/loader" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in PeekFileConfigTest (1)">
@@ -831,9 +1001,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in PeekFileConfigTest (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run_peek_agent" />
         <item index="1" class="java.lang.String" itemvalue="Python.run_peek_server" />
-        <item index="2" class="java.lang.String" itemvalue="Python.run_peek_agent" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in PeekFileConfigTest (1)" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PeekAgentConfigTest" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest PeekFileConfigTest.testPlatformDetails" />
       </list>
@@ -1046,7 +1216,28 @@
       <option name="project" value="LOCAL" />
       <updated>1478833733183</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fixed bamboo_ut">
+      <created>1478834262466</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1478834262466</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added noop unit test">
+      <created>1478834623098</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1478834623098</updated>
+    </task>
+    <task id="LOCAL-00031" summary="updated version file">
+      <created>1478834946030</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1478834946030</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1082,30 +1273,30 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="26" width="1930" height="1179" extended-state="6" />
+    <frame x="-5" y="26" width="2570" height="1419" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40246212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285985" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19648562" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279321" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14654487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39891976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1143,7 +1334,9 @@
     <MESSAGE value="Fixed issue with make_deploy" />
     <MESSAGE value="Fixed date VER issue with make_deploy" />
     <MESSAGE value="Fixed bamboo_ut" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bamboo_ut" />
+    <MESSAGE value="Added noop unit test" />
+    <MESSAGE value="updated version file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated version file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1166,7 +1359,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1178,310 +1371,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/client/peekadm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/run_peek_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#282#320#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/PeekServerEchoHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="208" column="29" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformVersionHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_agent/src/peek_agent/TempUnitTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPlatformMixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/PeekServerConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="e#300#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/client/peekadm/update/PeekAdmCapabilitiesHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/ServerUpdateManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/UpdateResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PappUpdateDownloadResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_update_client/PappSwUpdateManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentConfigTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-            <marker date="1478779814562" expanded="true" signature="324:1298" ph="..." />
-            <marker date="1478779814562" expanded="true" signature="611:876" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_agent/src/peek_agent/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/Util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigSqlAlchemyMixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="e#300#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/PeekVortexClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/VortexClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="75" column="64" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_agent/src/run_peek_agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_update_client/PeekSwUpdateHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_server/PlatformUpdateDownloadResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_update_from_ui/PlatformUpdateManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../peek_server/alembic.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1522,54 +1411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="58" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="58" />
-          <folding>
-            <element signature="e#301#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_agent/make_deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/make_deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../peek_worker/src/run_peek_worker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../papp_noop/make_deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1610,6 +1455,346 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_noop/papp_version.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_noop/src/papp_noop/PappServerMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_agent/src/peek_agent/PeekAgentConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#300#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="58" />
+          <folding>
+            <element signature="e#301#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/make_deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/loader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/ServerPlatformApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_update_platform/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_install/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PeekSwBundleInstallManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwBundleInstallManagerBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/PappSwVersionInfoUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/PeekSwVersionDataHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PeekSwInstallManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PappSwUploadManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/PappSwInstallManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="55" column="71" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="71" />
+          <folding>
+            <element signature="e#259#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/run_peek_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+          <folding>
+            <element signature="e#266#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionTuple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionPollHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <element signature="e#228#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="91" column="60" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_agent/make_deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_noop/make_deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>

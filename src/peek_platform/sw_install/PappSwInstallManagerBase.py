@@ -31,9 +31,9 @@ from rapui.util.RapuiHttpFileDownloader import rapuiHttpFileDownloader
 logger = logging.getLogger(__name__)
 
 
-class PappUpdateManager:
-    def __init__(self, config):
-        self._config = config
+class PappSwInstallManagerBase:
+    def __init__(self):
+        pass
 
     @inlineCallbacks
     def update(self, pappName, targetVersion):
@@ -41,7 +41,7 @@ class PappUpdateManager:
 
         from peek_platform import PeekPlatformConfig
 
-        url = ('http://%(ip)s:%(port)s/peek_server.sw_update_client.papp.download?'
+        url = ('http://%(ip)s:%(port)s/peek_server.sw_install.papp.download?'
                ) % {"ip": PeekPlatformConfig.config.peekServerHost,
                     "port": PeekPlatformConfig.config.peekServerPort}
 
@@ -58,22 +58,21 @@ class PappUpdateManager:
                 pappName, targetVersion)
             return
 
-        yield self._blockingInstallUpdate(pappName, targetVersion, dir, file)
+        yield self.installAndReload(pappName, targetVersion, file.realPath)
 
         defer.returnValue(targetVersion)
 
     @deferToThreadWrap
-    def _blockingInstallUpdate(self, pappName, targetVersion, dir, file):
-        dir._unused = True  # Ingore unused, and we need to hold a ref or it deletes
+    def installAndReload(self, pappName, targetVersion, fullTarPath):
 
         assert isinstance(PeekPlatformConfig.config, PeekFileConfigPlatformMixin)
         pappVersionJsonFileName = "papp_version.json"
 
-        if not tarfile.is_tarfile(file.realPath):
+        if not tarfile.is_tarfile(fullTarPath):
             raise Exception("Papp update %s download is not a tar file" % pappName)
 
         directory = Directory()
-        tarfile.open(file.realPath).extractall(directory.path)
+        tarfile.open(fullTarPath).extractall(directory.path)
         directory.scan()
 
         pappVersionJson = filter(lambda f: f.name == pappVersionJsonFileName,
@@ -107,8 +106,16 @@ class PappUpdateManager:
         # Move the new version into place
         shutil.move(os.path.join(directory.path, archiveRootDirName), newPath)
 
+        # Move the TAR archive into plate
+        shutil.move(os.path.join(directory.path, archiveRootDirName), newPath)
+
         PeekPlatformConfig.config.setPappVersion(pappName, targetVersion)
         PeekPlatformConfig.config.setPappDir(pappName, newPath)
 
         # RELOAD PAPP
-        logger.critical("NEED TO IMPLEMENT RELOAD PAPP")
+        reactor.callLater(0, self.notifyOfPappVersionUpdate, pappName, targetVersion)
+
+    def notifyOfPappVersionUpdate(self, pappName, targetVersion):
+        raise NotImplementedError("notifyOfPappVersionUpdate")
+
+

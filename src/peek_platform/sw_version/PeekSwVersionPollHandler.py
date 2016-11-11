@@ -6,8 +6,8 @@ Created on 09/07/2014
 
 from twisted.internet.defer import Deferred, DeferredList
 
-from peek_platform.sw_update_client import PappSwUpdateManager
-from peek_platform.sw_update_client.PeekSwUpdateManager import PeekSwUpdateManager
+from peek_platform.sw_install.PappSwInstallManagerBase import PappSwInstallManagerBase
+from peek_platform.sw_install.PeekSwInstallManagerBase import PeekSwInstallManagerBase
 from rapui.vortex.Payload import Payload
 from rapui.vortex.PayloadEndpoint import PayloadEndpoint
 
@@ -25,7 +25,7 @@ peekPlatformVersionFilt = {
     'key': "peek_platform.version.check"}  # LISTEN / SEND
 
 
-class PeekSwUpdateHandler(object):
+class PeekSwVersionPollHandler(object):
     PEEK_PLATFORM = "peek_platform"
 
     def __init__(self):
@@ -34,8 +34,6 @@ class PeekSwUpdateHandler(object):
 
     def start(self):
         self._ep = PayloadEndpoint(peekPlatformVersionFilt, self._process)
-
-        # FIXME, When there are more than two servers in a group this will be an issue
 
         from peek_platform.PeekVortexClient import peekVortexClient
         peekVortexClient.sendPayload(Payload(filt=peekPlatformVersionFilt))
@@ -56,7 +54,7 @@ class PeekSwUpdateHandler(object):
                     logger.info("Recieved platform update new version is %s, we're %s",
                                 swVersionInfo.version,
                                 PeekPlatformConfig.config.platformVersion)
-                    d = PeekSwUpdateManager().update(swVersionInfo.version)
+                    d = PeekSwInstallManagerBase().update(swVersionInfo.version)
                     deferredList.append(d)
 
                     # Don't process any more, we'll update them when we restart.
@@ -73,8 +71,8 @@ class PeekSwUpdateHandler(object):
                                 swVersionInfo.version,
                                 installedPappVer)
 
-                    d = PappSwUpdateManager().update(swVersionInfo.name,
-                                                 swVersionInfo.version)
+                    d = PappSwInstallManagerBase().update(swVersionInfo.name,
+                                                          swVersionInfo.version)
                     deferredList.append(d)
 
         if deferredList:
@@ -92,4 +90,4 @@ class PeekSwUpdateHandler(object):
         self._startupDeferred = None
 
 
-peekSwUpdateHandler = PeekSwUpdateHandler()
+peekSwVersionPollHandler = PeekSwVersionPollHandler()

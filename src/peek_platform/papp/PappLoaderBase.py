@@ -17,6 +17,12 @@ class PappLoaderBase():
     def __init__(self):
         self._loadedPapps = {}
 
+    def loadPapp(self, pappName):
+        raise NotImplementedError("loadPapp")
+
+    def unloadPapp(self, pappName):
+        raise NotImplementedError("unloadPapp")
+
     def listPapps(self):
         def pappTest(name):
             if not name.startswith("papp_"):
@@ -30,6 +36,10 @@ class PappLoaderBase():
     def loadAllPapps(self):
         for pappName in self.listPapps():
             self.loadPapp(pappName)
+
+    def unloadAllPapps(self):
+        while self._loadedPapps:
+            self.unloadPapp(self._loadedPapps.keys()[0])
 
     def _unloadPappPackage(self, pappName, oldLoadedPapp):
 

@@ -37,8 +37,8 @@ class PeekServerRestartWatchHandler(object):
             return
 
         logger.info("Peek Server restart detected, restarting agent")
-        from peek_platform.sw_update_client.PeekSwUpdateManager import PeekSwUpdateManager
-        PeekSwUpdateManager.restartProcess()
+        from peek_platform.sw_install.PeekSwInstallManagerBase import PeekSwInstallManagerBase
+        PeekSwInstallManagerBase.restartProcess()
 
 
 __peekServerRestartWatchHandler = PeekServerRestartWatchHandler()

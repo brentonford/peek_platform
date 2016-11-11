@@ -57,7 +57,7 @@ class PeekSwInstallManagerBase:
                            PeekPlatformConfig.componentName, targetVersion)
             return
 
-        yield self._blockingInstallUpdate(targetVersion, dir, file)
+        yield self._blockingInstallUpdate(targetVersion, file.realPath)
 
         defer.returnValue(targetVersion)
 
@@ -71,26 +71,19 @@ class PeekSwInstallManagerBase:
             'peek_platform_%s' % targetVersion,
             '%s_%s.tar.bz2' % (PeekPlatformConfig.componentName, targetVersion))
 
-        if not tarfile.is_tarfile(newSoftwareTar):
-            raise Exception("Uploaded archive is not a tar file")
 
-        directory = Directory()
-        tarfile.open(newSoftwareTar).extractall(directory.path)
-        directory.scan()
-
-        yield self._blockingInstallUpdate(targetVersion, dir, file)
+        yield self._blockingInstallUpdate(targetVersion, newSoftwareTar)
 
     @deferToThreadWrap
-    def _blockingInstallUpdate(self, targetVersion, dir, file):
-        dir._unused = True  # Ingore unused, and we need to hold a ref or it deletes
+    def _blockingInstallUpdate(self, targetVersion, fullTarPath):
 
         from peek_platform import PeekPlatformConfig
 
-        if not tarfile.is_tarfile(file.realPath):
+        if not tarfile.is_tarfile(fullTarPath):
             raise Exception("Platform update download is not a tar file")
 
         directory = Directory()
-        tarfile.open(file.realPath).extractall(directory.path)
+        tarfile.open(fullTarPath).extractall(directory.path)
         directory.scan()
 
         runPycFileName = 'run_%s.pyc' % PeekPlatformConfig.componentName
@@ -108,7 +101,10 @@ class PeekSwInstallManagerBase:
         home = expanduser("~")
         newPath = os.path.join(home, runPycFile.path)
 
-        if os.path.exists(newPath):
+        import peek_platform
+        oldPath = os.path.dirname(os.path.dirname(peek_platform.__file__))
+
+        if newPath == oldPath:
             oldPath = tempfile.mkdtemp(dir=home, prefix=runPycFile.path)
             shutil.move(newPath, oldPath)
 

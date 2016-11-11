@@ -42,7 +42,7 @@ class PappLoaderBase():
 
     def unloadAllPapps(self):
         while self._loadedPapps:
-            self._unloadPappPackage(self._loadedPapps.keys()[0])
+            self.unloadPapp(self._loadedPapps.keys()[0])
 
     def _unloadPappPackage(self, pappName, oldLoadedPapp):
 

@@ -9,6 +9,7 @@
  *  Synerty Pty Ltd
  *
 """
+import json
 import logging
 import shutil
 import sys
@@ -83,13 +84,25 @@ class PappSwInstallManagerBase:
                             ", Expected 1 %s, got %s"
                             % (pappVersionJsonFileName, len(pappVersionJson)))
 
-        archiveRootDirName = pappVersionJson[0].path
+        pappVersionJson = pappVersionJson[0]
+
+        with pappVersionJson.open() as f:
+            jsonObj = json.load(f)
+
+        jsonVersion = jsonObj['version']
+        jsonBuild = jsonObj['buildNumber']
+
+        if jsonVersion != targetVersion:
+            raise Exception("Papp %s Target version is %s json version is %s"
+                            % (pappName, targetVersion, jsonVersion))
+
+        archiveRootDirName = pappVersionJson.path
 
         if '/' in archiveRootDirName:
             raise Exception("Papp %s Expected %s to be one level down, it's at %s"
                             % (pappName, pappVersionJsonFileName, archiveRootDirName))
 
-        expectedRootDir = "%s_%s" % (pappName, targetVersion)
+        expectedRootDir = "%s_%s#%s" % (pappName, jsonVersion, jsonBuild)
         if archiveRootDirName != expectedRootDir:
             raise Exception("Papp %s, archive root dir is expected to be %s but its %s"
                             % (pappName, expectedRootDir, archiveRootDirName))
@@ -106,9 +119,6 @@ class PappSwInstallManagerBase:
         # Move the new version into place
         shutil.move(os.path.join(directory.path, archiveRootDirName), newPath)
 
-        # Move the TAR archive into plate
-        shutil.move(os.path.join(directory.path, archiveRootDirName), newPath)
-
         PeekPlatformConfig.config.setPappVersion(pappName, targetVersion)
         PeekPlatformConfig.config.setPappDir(pappName, newPath)
 
@@ -117,5 +127,3 @@ class PappSwInstallManagerBase:
 
     def notifyOfPappVersionUpdate(self, pappName, targetVersion):
         raise NotImplementedError("notifyOfPappVersionUpdate")
-
-

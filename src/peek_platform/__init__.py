@@ -6,3 +6,6 @@ class PeekPlatformConfig:
 
     # The config accessor class
     config = None
+
+    # The inherited class of PappSwInstallManagerBase
+    pappSwInstallManager = None

@@ -12,20 +12,18 @@
 import json
 import logging
 import shutil
-import sys
 import tarfile
 import tempfile
 import urllib
 
 import os
-from os.path import expanduser
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
 from peek_platform import PeekPlatformConfig
 from peek_platform.file_config.PeekFileConfigPlatformMixin import \
     PeekFileConfigPlatformMixin
-from rapui.DeferUtil import printFailure, deferToThreadWrap
+from rapui.DeferUtil import deferToThreadWrap
 from rapui.util.Directory import Directory
 from rapui.util.RapuiHttpFileDownloader import rapuiHttpFileDownloader
 
@@ -121,6 +119,11 @@ class PappSwInstallManagerBase:
 
         PeekPlatformConfig.config.setPappVersion(pappName, targetVersion)
         PeekPlatformConfig.config.setPappDir(pappName, newPath)
+
+        ####
+        # FIXME : This will always enabled the Papp and overwrite config changes
+        PeekPlatformConfig.config.pappsEnabled = list(set(
+            PeekPlatformConfig.config.pappsEnabled + [pappName]))
 
         # RELOAD PAPP
         reactor.callLater(0, self.notifyOfPappVersionUpdate, pappName, targetVersion)

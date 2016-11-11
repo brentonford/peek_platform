@@ -71,9 +71,12 @@ class PeekSwVersionPollHandler(object):
                                 swVersionInfo.version,
                                 installedPappVer)
 
-                    d = PappSwInstallManagerBase().update(swVersionInfo.name,
-                                                          swVersionInfo.version)
+                    d = PeekPlatformConfig.pappSwInstallManager.update(
+                        swVersionInfo.name, swVersionInfo.version)
                     deferredList.append(d)
+
+        if not self._startupDeferred:
+            return
 
         if deferredList:
             if platformUpdate:

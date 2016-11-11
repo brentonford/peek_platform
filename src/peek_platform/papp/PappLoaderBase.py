@@ -4,6 +4,7 @@ import sys
 
 import os
 
+from peek_platform import PeekPlatformConfig
 
 logger = logging.getLogger(__name__)
 
@@ -36,12 +37,12 @@ class PappLoaderBase():
         return papps
 
     def loadAllPapps(self):
-        for pappName in self.listPapps():
+        for pappName in PeekPlatformConfig.config.pappsEnabled:
             self.loadPapp(pappName)
 
     def unloadAllPapps(self):
         while self._loadedPapps:
-            self.unloadPapp(self._loadedPapps.keys()[0])
+            self._unloadPappPackage(self._loadedPapps.keys()[0])
 
     def _unloadPappPackage(self, pappName, oldLoadedPapp):
 
@@ -49,12 +50,6 @@ class PappLoaderBase():
         del self._loadedPapps[pappName]
         oldLoadedPapp.stop()
         oldLoadedPapp.unload()
-
-        if sys.getrefcount(oldLoadedPapp) > 2:
-            logger.warning("Old references to %s still exist, count = %s",
-                           pappName, sys.getrefcount(oldLoadedPapp))
-
-        self.unloadPapp(pappName)
 
         # Unload the packages
         loadedSubmodules = [modName
@@ -65,3 +60,7 @@ class PappLoaderBase():
             del sys.modules[modName]
 
         del sys.modules[pappName]
+
+        if sys.getrefcount(oldLoadedPapp) > 2:
+            logger.warning("Old references to %s still exist, count = %s",
+                           pappName, sys.getrefcount(oldLoadedPapp))

@@ -71,11 +71,11 @@ class PeekFileConfigPlatformMixin:
 
     # --- Papps Installed
     @property
-    def pappsInstalled(self):
+    def pappsEnabled(self):
         with self._cfg as c:
-            return c.papp.installed([], require_list)
+            return c.papp.enabled([], require_list)
 
-    @pappsInstalled.setter
-    def pappsInstalled(self, value):
+    @pappsEnabled.setter
+    def pappsEnabled(self, value):
         with self._cfg as c:
-            c.papp.installed = value
+            c.papp.enabled = value

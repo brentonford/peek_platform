@@ -6,7 +6,6 @@ Created on 09/07/2014
 
 from twisted.internet.defer import Deferred, DeferredList
 
-from peek_platform.sw_install.PappSwInstallManagerBase import PappSwInstallManagerBase
 from peek_platform.sw_install.PeekSwInstallManagerBase import PeekSwInstallManagerBase
 from rapui.vortex.Payload import Payload
 from rapui.vortex.PayloadEndpoint import PayloadEndpoint

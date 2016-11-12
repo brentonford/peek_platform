@@ -62,6 +62,7 @@ class PappLoaderBase():
         if pappName in sys.modules:
             del sys.modules[pappName]
 
-        if sys.getrefcount(oldLoadedPapp) > 2:
+        # pypy doesn't have getrefcount
+        if hasattr(sys, "getrefcount") and sys.getrefcount(oldLoadedPapp) > 2:
             logger.warning("Old references to %s still exist, count = %s",
                            pappName, sys.getrefcount(oldLoadedPapp))

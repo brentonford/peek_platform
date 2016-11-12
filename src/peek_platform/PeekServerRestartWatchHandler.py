@@ -5,7 +5,6 @@ Created on 09/07/2014
 '''
 import logging
 
-from peek_platform.PeekVortexClient import peekVortexClient
 from rapui.vortex.Payload import Payload
 from rapui.vortex.PayloadEndpoint import PayloadEndpoint
 
@@ -26,6 +25,7 @@ class PeekServerRestartWatchHandler(object):
         self._lastPeekServerVortexUuid = None
 
         # When the vortex reconnects, this will make the server echo back to us.
+        from peek_platform.PeekVortexClient import peekVortexClient
         peekVortexClient.addReconnectPayload(Payload(filt=agentEchoFilt))
 
     def _process(self, payload, vortexUuid, **kwargs):
@@ -36,9 +36,9 @@ class PeekServerRestartWatchHandler(object):
         if self._lastPeekServerVortexUuid == vortexUuid:
             return
 
-        logger.info("Peek Server restart detected, restarting agent")
-        from peek_platform.sw_install.PeekSwInstallManagerBase import PeekSwInstallManagerBase
-        PeekSwInstallManagerBase.restartProcess()
+        logger.info("Peek Server restart detected, restarting...")
+        from peek_platform import PeekPlatformConfig
+        PeekPlatformConfig.peekSwInstallManager.restartProcess()
 
 
 __peekServerRestartWatchHandler = PeekServerRestartWatchHandler()

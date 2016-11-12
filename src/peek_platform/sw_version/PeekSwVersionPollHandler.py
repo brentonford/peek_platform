@@ -6,7 +6,6 @@ Created on 09/07/2014
 
 from twisted.internet.defer import Deferred, DeferredList
 
-from peek_platform.sw_install.PeekSwInstallManagerBase import PeekSwInstallManagerBase
 from rapui.vortex.Payload import Payload
 from rapui.vortex.PayloadEndpoint import PayloadEndpoint
 
@@ -53,7 +52,7 @@ class PeekSwVersionPollHandler(object):
                     logger.info("Recieved platform update new version is %s, we're %s",
                                 swVersionInfo.version,
                                 PeekPlatformConfig.config.platformVersion)
-                    d = PeekSwInstallManagerBase().update(swVersionInfo.version)
+                    d = PeekPlatformConfig.peekSwInstallManager.update(swVersionInfo.version)
                     deferredList.append(d)
 
                     # Don't process any more, we'll update them when we restart.

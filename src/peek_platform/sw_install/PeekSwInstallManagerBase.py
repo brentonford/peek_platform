@@ -104,9 +104,14 @@ class PeekSwInstallManagerBase:
         import peek_platform
         oldPath = os.path.dirname(os.path.dirname(peek_platform.__file__))
 
-        if newPath == oldPath:
-            oldPath = tempfile.mkdtemp(dir=home, prefix=runPycFile.path)
-            shutil.move(newPath, oldPath)
+        if os.path.exists(newPath):
+            # When running from the IDE, oldPath != newPath, so make sure we don't move
+            # the project dir.
+            tmpPath = tempfile.mkdtemp(dir=home, prefix=runPycFile.path)
+            shutil.move(newPath, tmpPath)
+
+            if newPath == oldPath:
+                oldPath = tmpPath
 
         shutil.move(os.path.join(directory.path, runPycFile.path), newPath)
 
@@ -153,7 +158,6 @@ class PeekSwInstallManagerBase:
             pass
         os.symlink(newPath, symLink)
 
-    @classmethod
     def restartProcess(self):
         """Restarts the current program.
         Note: this function does not return. Any cleanup action (like

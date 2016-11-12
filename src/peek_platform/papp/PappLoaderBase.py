@@ -59,7 +59,8 @@ class PappLoaderBase():
         for modName in loadedSubmodules:
             del sys.modules[modName]
 
-        del sys.modules[pappName]
+        if pappName in sys.modules:
+            del sys.modules[pappName]
 
         if sys.getrefcount(oldLoadedPapp) > 2:
             logger.warning("Old references to %s still exist, count = %s",

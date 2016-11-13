@@ -55,8 +55,15 @@ class PappLoaderBase():
 
         # Stop and remove the Papp
         del self._loadedPapps[pappName]
-        oldLoadedPapp.stop()
-        oldLoadedPapp.unload()
+
+        try:
+            oldLoadedPapp.stop()
+            oldLoadedPapp.unload()
+
+        except Exception as e:
+            logger.error("An exception occured while unloading papp %s,"
+                          " unloading continues" % pappName)
+            logger.exception(e)
 
         # Unload the packages
         loadedSubmodules = [modName

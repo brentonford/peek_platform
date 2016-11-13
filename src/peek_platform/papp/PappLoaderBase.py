@@ -21,6 +21,13 @@ class PappLoaderBase():
         self._loadedPapps = {}
 
     def loadPapp(self, pappName):
+        try:
+            self._loadPappThrows(pappName)
+        except Exception as e:
+            logger.error("Failed to load papp %s", pappName)
+            logger.exception(e)
+
+    def _loadPappThrows(self, pappName):
         raise NotImplementedError("loadPapp")
 
     def unloadPapp(self, pappName):

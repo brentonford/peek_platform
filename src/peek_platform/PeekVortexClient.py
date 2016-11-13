@@ -27,6 +27,9 @@ class PeekVortexClient:
         logger.info('Connecting to Peek Server %s:%s', serverHost, serverPort)
         return self._vortexClient.connect(serverHost, serverPort)
 
+    def disconnect(self):
+        self._vortexClient.disconnect()
+
     def addReconnectPayload(self, vortexMsg):
         return self._vortexClient.addReconnectPayload(vortexMsg)
 

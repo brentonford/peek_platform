@@ -21,3 +21,6 @@ class PeekPlatformConfig:
 
     # The inherited class of PeekSwInstallManagerBase
     peekSwInstallManager = None
+
+    # The instance of the PappLoaderBase
+    pappLoader = None

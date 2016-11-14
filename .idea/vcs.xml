@@ -3,12 +3,14 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../json-cfg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../json-cfg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../old-peek_agent_pof" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_base" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_diagram" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_mobile" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_model" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_noop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../peek_client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_server.lic" vcs="Git" />

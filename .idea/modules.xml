@@ -3,12 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../json-cfg/.idea/json-cfg.iml" filepath="$PROJECT_DIR$/../json-cfg/.idea/json-cfg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" filepath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" filepath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" filepath="$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_mobile/.idea/papp_mobile.iml" filepath="$PROJECT_DIR$/../papp_mobile/.idea/papp_mobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" filepath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" filepath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../peek_agent/.idea/peek_agent.iml" filepath="$PROJECT_DIR$/../peek_agent/.idea/peek_agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" filepath="$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/peek_platform.iml" filepath="$PROJECT_DIR$/.idea/peek_platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" filepath="$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" filepath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" />

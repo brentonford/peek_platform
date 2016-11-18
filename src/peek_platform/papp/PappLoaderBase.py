@@ -40,7 +40,7 @@ class PappLoaderBase():
             return os.path.isdir(os.path.join(self._pappPath, name))
 
         papps = os.listdir(self._pappPath)
-        papps = filter(pappTest, papps)
+        papps = list(filter(pappTest, papps))
         return papps
 
     def loadAllPapps(self):
@@ -49,7 +49,7 @@ class PappLoaderBase():
 
     def unloadAllPapps(self):
         while self._loadedPapps:
-            self.unloadPapp(self._loadedPapps.keys()[0])
+            self.unloadPapp(list(self._loadedPapps.keys())[0])
 
     def _unloadPappPackage(self, pappName, oldLoadedPapp):
 
@@ -67,7 +67,7 @@ class PappLoaderBase():
 
         # Unload the packages
         loadedSubmodules = [modName
-                            for modName in sys.modules.keys()
+                            for modName in list(sys.modules.keys())
                             if modName.startswith('%s.' % pappName)]
 
         for modName in loadedSubmodules:

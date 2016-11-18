@@ -2,46 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd22ba02-bb56-472f-ac70-6c4075be77d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/node_modules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/RapuiStubs.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilStorableDict.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilStorableDict.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilString.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilString.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_UtilClass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/VortexTuning.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngularCustom.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngularCustom.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadIO.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadIO.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Tuple.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Tuple.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rapui/src/rapui/package.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/node_modules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/typings/globals/jquery/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/typings/globals/jquery/typings.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" afterPath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../old-peek_agent_pof/src/peek_agent_pof/realtime/__init__.py" afterPath="$PROJECT_DIR$/../old-peek_agent_pof/src/peek_agent_pof/realtime/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" afterPath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_base/src/papp_base/worker/CeleryDbConnInit.py" afterPath="$PROJECT_DIR$/../papp_base/src/papp_base/worker/CeleryDbConnInit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" afterPath="$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/RealtimePollerSoap.py" afterPath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/RealtimePollerSoap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/old_Soap.py" afterPath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/old_Soap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPage.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPages.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispColor.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispColor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLayer.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLayer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLevel.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLevel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLineStyle.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLineStyle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispTextStyle.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispTextStyle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomProtocol.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomProtocol.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/PopupMenuItemMaker.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/PopupMenuItemMaker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/admin/coordset/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/admin/coordset/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/app/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/cache/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/cache/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/canvas/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/canvas/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/dashboard/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/dashboard/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/navbar/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/navbar/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/popup_menu/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/popup_menu/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/splash/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/splash/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/ClientGridHandler.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/ClientGridHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/data_cache/DispLookupDataCache.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/data_cache/DispLookupDataCache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispGrid.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispGrid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispLiveDbLinks.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispLiveDbLinks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportLookup.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportLookup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/live_db/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/live_db/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/livedb/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/livedb/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/Display.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/Display.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/LiveDb.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/LiveDb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/CeleryApp.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/CeleryApp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DbConnectionInit.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DbConnectionInit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexer.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexerTask.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexerTask.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompiler.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompilerTask.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompilerTask.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/tasks.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/tasks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/.idea/papp_mobile.iml" afterPath="$PROJECT_DIR$/../papp_mobile/.idea/papp_mobile.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/app/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/JobHandler.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/JobHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/logonoff/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/logonoff/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" afterPath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtil.py" afterPath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtilTest.py" afterPath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtilTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" afterPath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappWorkerMain.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappWorkerMain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/admin/__init__.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/admin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/__init__.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/noopadm/__init__.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/noopadm/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/NoopCeleryTaskMaster.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/NoopCeleryTaskMaster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/model/ModelUtil.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/model/ModelUtil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/storage/DeclarativeBase.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/storage/DeclarativeBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/worker/NoopCeleryApp.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/worker/NoopCeleryApp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/peek_agent/__init__.py" afterPath="$PROJECT_DIR$/../peek_agent/src/peek_agent/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/peek_agent/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_agent/src/peek_agent/sw_install/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" afterPath="$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/__init__.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoader.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoaderTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/sw_install/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/peek_platform.iml" afterPath="$PROJECT_DIR$/.idea/peek_platform.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.js" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilStorableDict.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilStorableDict.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilString.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf.py" afterPath="$PROJECT_DIR$/conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/CeleryApp.py" afterPath="$PROJECT_DIR$/src/peek_platform/CeleryApp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_install/__init__.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_version/__init__.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_version/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" afterPath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/alembic/env.py" afterPath="$PROJECT_DIR$/../peek_server.lic/alembic/env.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/alembic/versions/36e4ba804a5d_removed_ethernet_mac.py" afterPath="$PROJECT_DIR$/../peek_server.lic/alembic/versions/36e4ba804a5d_removed_ethernet_mac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/ServerFingerPrint.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/ServerFingerPrint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/License.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/License.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/__init__.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" afterPath="$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/alembic/versions/c5e78990adf6_added_initial_tables.py" afterPath="$PROJECT_DIR$/../peek_server/alembic/versions/c5e78990adf6_added_initial_tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/dashboard/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/dashboard/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/environment/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/environment/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/login/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/login/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/navbar/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/navbar/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/setting/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/setting/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/update/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/update/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthRealm.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthRealm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthValue.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthValue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/Setting.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/Setting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" afterPath="$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/__init__.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoader.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoaderTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PeekWorkerApi.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PeekWorkerApi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/sw_install/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" afterPath="$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pof_api/src/pof_api/pof_soap/__init__.py" afterPath="$PROJECT_DIR$/../pof_api/src/pof_api/pof_soap/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/__init__.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml" afterPath="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../txCelery/.idea/txCelery.iml" afterPath="$PROJECT_DIR$/../txCelery/.idea/txCelery.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../txsuds/.idea/txsuds.iml" afterPath="$PROJECT_DIR$/../txsuds/.idea/txsuds.iml" />
     </list>
     <ignored path="peek_platform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +172,12 @@
     <SUITE FILE_PATH="coverage/peek_platform$run_peek_client.coverage" NAME="run_peek_client Coverage Results" MODIFIED="1479114691013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_client/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testSavingConfig.coverage" NAME="Unittest PeekFileConfigTest.testSavingConfig Coverage Results" MODIFIED="1478668312107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testAsignment.coverage" NAME="Unittest PeekFileConfigTest.testAsignment Coverage Results" MODIFIED="1478673648642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
+    <SUITE FILE_PATH="coverage/peek_platform$rapui_server.coverage" NAME="rapui_server Coverage Results" MODIFIED="1479477576751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../rapui/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekAgentConfigTest.coverage" NAME="Unittests in PeekAgentConfigTest Coverage Results" MODIFIED="1478782922165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src/peek_agent" />
     <SUITE FILE_PATH="coverage/peek_platform$peeklic.coverage" NAME="peeklic Coverage Results" MODIFIED="1479037661930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server.lic/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekFileConfigTest__1_.coverage" NAME="Unittests in PeekFileConfigTest (1) Coverage Results" MODIFIED="1478831744167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$run_peek_worker.coverage" NAME="run_peek_worker Coverage Results" MODIFIED="1479114617255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_worker/src" />
-    <SUITE FILE_PATH="coverage/peek_platform$run_peek_server.coverage" NAME="run_peek_server Coverage Results" MODIFIED="1479276666626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server/src" />
+    <SUITE FILE_PATH="coverage/peek_platform$run_peek_server.coverage" NAME="run_peek_server Coverage Results" MODIFIED="1479512912266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekFileConfigTest.coverage" NAME="Unittests in PeekFileConfigTest Coverage Results" MODIFIED="1478671481727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testPlatformDetails.coverage" NAME="Unittest PeekFileConfigTest.testPlatformDetails Coverage Results" MODIFIED="1478685839214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$run_peek_agent.coverage" NAME="run_peek_agent Coverage Results" MODIFIED="1479019540718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src" />
@@ -77,58 +193,83 @@
     <splitter split-orientation="horizontal" split-proportion="0.49604467">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Tuple.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Tuple.ts">
+          <file leaf-file-name="JavascriptElement.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="34" />
+                <state relative-caret-position="720">
+                  <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
                   <folding>
-                    <element signature="e#0#32#0" expanded="true" />
+                    <element signature="e#265#274#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Xmlable.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts">
+          <file leaf-file-name="HtmlTemplate.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PayloadEndpoint.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts">
+          <file leaf-file-name="RealtimeValue.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="674">
-                  <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+                <state relative-caret-position="-283">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <element signature="e#0#32#0" expanded="true" />
+                    <element signature="e#0#14#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AngularCustom.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngularCustom.ts">
+          <file leaf-file-name="RealtimePollerEcomFactory.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1365">
-                  <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+                <state relative-caret-position="-495">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <element signature="e#70#110#0" expanded="true" />
+                    <element signature="e#0#14#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PayloadIO.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadIO.ts">
+          <file leaf-file-name="SerialiseUtil.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+                <state relative-caret-position="2400">
+                  <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Jsonable.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2325">
+                  <caret line="155" column="64" lean-forward="false" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="64" />
+                  <folding>
+                    <element signature="e#0#44#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/common/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="0">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -137,58 +278,12 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AngFormLoadController.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts">
+          <file leaf-file-name="Jsonable.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="227" column="42" lean-forward="true" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PayloadFiterKeys.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="380">
+                  <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="angular.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_components/angular/angular.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/jquery/index.d.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="852">
-                  <caret line="3227" column="0" lean-forward="false" selection-start-line="3227" selection-start-column="0" selection-end-line="3227" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UsrMsgDispatcher.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="244" column="20" lean-forward="false" selection-start-line="244" selection-start-column="20" selection-end-line="244" selection-end-column="20" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -201,8 +296,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
-        <option value="Python Script" />
         <option value="TypeScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -223,11 +318,17 @@
       <find>vortexSendFilt</find>
       <find>payloadFilt</find>
       <find>this.</find>
-      <find>var</find>
       <find>Callbacks</find>
-      <find>'</find>
       <find>this</find>
+      <find>'</find>
+      <find>_MicroXmlDocument</find>
       <find>_setupTimer</find>
+      <find>var</find>
+      <find>self.content</find>
+      <find>fromStr</find>
+      <find>toStr</find>
+      <find>mimetools</find>
+      <find>require</find>
     </findStrings>
     <replaceStrings>
       <replace>private static readonly</replace>
@@ -238,71 +339,72 @@
       <replace>delete</replace>
       <replace>private</replace>
       <replace>self.</replace>
-      <replace>let</replace>
       <replace>&quot;</replace>
       <replace>self</replace>
+      <replace>let</replace>
+      <replace>email</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../rapui</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rapui" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../papp_diagram" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptResource.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/StyleResource.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/StyleElement.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/FontResource.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/RapuiStaticResources.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/bower_components/__init__.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/papp/ServerPlatformApi.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
-        <option value="$PROJECT_DIR$/../papp_noop/src/papp_noop/admin/__init__.py" />
-        <option value="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappServerMain.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlResource.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ElementUtil.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/RootResource.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/papp/PappPlatformApiResourceBase.py" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppElement.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/type_script/__init__.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/type_script/jquery.ts" />
-        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/bower_ts_defines/__init__.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/bower_ts_defines/jQuery.d.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.js" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilStorableDict.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.js.map" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_UtilClass.js" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.js" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.js" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilString.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/typings/index.d.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Tuple.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/RapuiStubs.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/bower_components/angular/angular.js" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/node_modules/jquery/index.d.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/tsconfig.json" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadIO.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngularCustom.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/handler/OrmCrudHandler.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/cpython-27-packages" />
+        <option value="$PROJECT_DIR$/../rapui/py3-build.txt" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/Util.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/FastXml.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/VortexClient.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/test/__init__.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/Site.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ElementUtil.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/RootResource.py" />
+        <option value="$PROJECT_DIR$/../celery_py3_test/src/tasks.py" />
+        <option value="$PROJECT_DIR$/../rapui/cpython-27-packages" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/LargeRequest.py" />
+        <option value="$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/web/http.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/VortexResource.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/LoggingSetup.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/RapuiStaticResources.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/__init__.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptResource.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/FontResource.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlResource.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ImageResource.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/StyleResource.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/.bowerrc" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/package.json" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/webpack.config.js" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/__init__.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml" />
       </list>
     </option>
   </component>
@@ -514,7 +616,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vortex" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,7 +626,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
+              <option name="myItemId" value="papp_diagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="papp_diagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="papp_diagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -532,11 +658,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="papp_diagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,7 +668,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
+              <option name="myItemId" value="papp_diagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -554,15 +676,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
+              <option name="myItemId" value="papp_diagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
+              <option name="myItemId" value="agent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,7 +690,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
+              <option name="myItemId" value="papp_diagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -580,57 +698,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
+              <option name="myItemId" value="papp_diagram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js_util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
+              <option name="myItemId" value="agent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rapui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular_custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="realtime" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,11 +719,11 @@
     <property name="options.lastSelected" value="configurable.group.editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="/usr/local/lib/node_modules/tslint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../celery_py3_test" />
     <property name="SearchEverywhereHistoryKey" value="doc&#9;ACTION&#9;QuickJavaDoc" />
     <property name="js-tslint-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js-tslint-package" value="/usr/local/lib/node_modules/tslint" />
@@ -659,13 +735,6 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../rapui/src/rapui/site" />
-      <recent name="$PROJECT_DIR$/../rapui/src/rapui/site/html" />
-      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server" />
-      <recent name="$PROJECT_DIR$/../papp_noop/src/papp_noop/server" />
-      <recent name="$PROJECT_DIR$/src/peek_platform" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../rapui/src/rapui/type_script" />
       <recent name="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app" />
@@ -673,31 +742,15 @@
       <recent name="$PROJECT_DIR$/../papp_noop/src/papp_noop/admin" />
       <recent name="$PROJECT_DIR$/../papp_base/src/papp_base" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../rapui" />
+      <recent name="$PROJECT_DIR$/../rapui/src/rapui/site" />
+      <recent name="$PROJECT_DIR$/../rapui/src/rapui/site/html" />
+      <recent name="$PROJECT_DIR$/../peek_server/src/peek_server" />
+      <recent name="$PROJECT_DIR$/../papp_noop/src/papp_noop/server" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.run_peek_server">
-    <configuration default="false" name="Unittests in PeekFileConfigTest (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/peek_platform/file_config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="peek_platform" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigTest.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="run_peek_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -766,6 +819,24 @@
       <module name="peek_client" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../peek_client/src/run_peek_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="rapui_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rapui/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rapui" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rapui/src/rapui_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -1051,19 +1122,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in PeekFileConfigTest (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.run_peek_server" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_peek_worker" />
-      <item index="3" class="java.lang.String" itemvalue="Python.peeklic" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run_peek_client" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run_peek_server" />
+      <item index="1" class="java.lang.String" itemvalue="Python.run_peek_worker" />
+      <item index="2" class="java.lang.String" itemvalue="Python.peeklic" />
+      <item index="3" class="java.lang.String" itemvalue="Python.run_peek_client" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rapui_server" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run_peek_server" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run_peek_client" />
-        <item index="2" class="java.lang.String" itemvalue="Python.run_peek_worker" />
-        <item index="3" class="java.lang.String" itemvalue="Python.peeklic" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in PeekFileConfigTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rapui_server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.run_peek_client" />
+        <item index="3" class="java.lang.String" itemvalue="Python.run_peek_worker" />
+        <item index="4" class="java.lang.String" itemvalue="Python.peeklic" />
       </list>
     </recent_temporary>
   </component>
@@ -1080,20 +1151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478574244493</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Fixes to platform update">
-      <created>1478822703581</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1478822703581</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Added bamboo_ut.sh">
-      <created>1478823148886</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1478823148886</updated>
     </task>
     <task id="LOCAL-00018" summary="Remvoed use of alias from bamboo_ut.sh script">
       <created>1478823904375</created>
@@ -1424,7 +1481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479276871206</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Rewrote all javascript classes to typescript">
+      <created>1479384474997</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1479384474999</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Converted RapUI to Python 3.5.2&#10;">
+      <created>1479465436160</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1479465436160</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1473,55 +1544,55 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="0" y="815" width="381" height="350" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294686" sideWeight="0.49361023" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4830918" sideWeight="0.4946752" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.45793396" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.543131" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.45793396" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.294686" sideWeight="0.4914803" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4830918" sideWeight="0.4946752" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4536741" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40289855" sideWeight="0.46432376" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31014493" sideWeight="0.45953143" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20500532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30048308" sideWeight="0.45633653" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1544196" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.456869" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.54206604" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40289855" sideWeight="0.53567624" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1475" y="737" width="405" height="296" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4547391" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="966" y="846" width="821" height="326" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294686" sideWeight="0.49361023" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4830918" sideWeight="0.4946752" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.45793396" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.45793396" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="1475" y="737" width="405" height="296" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.294686" sideWeight="0.4914803" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4830918" sideWeight="0.4946752" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.45580405" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.543131" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40289855" sideWeight="0.4600639" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31014493" sideWeight="0.45953143" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20500532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30048308" sideWeight="0.45633653" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20500532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.456869" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.456869" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.54206604" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40289855" sideWeight="0.5399361" order="11" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1603,8 +1674,6 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Tweaks to platform update" />
-    <MESSAGE value="Implemented Worker papp stuff" />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="papp is now built with pypy and cpython" />
     <MESSAGE value="Updated papp make_deploy" />
@@ -1628,10 +1697,24 @@
     <MESSAGE value="client make_deploy updates" />
     <MESSAGE value="Major refactoring to allow serving of static content under sub paths&#10;&#10;EG &#10;&#10;/view&#10;/javascript&#10;&#10;/papp_noop/view&#10;/papp_noop/javascript&#10;etc" />
     <MESSAGE value="Papps admin pages now work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Papps admin pages now work." />
+    <MESSAGE value="Rewrote all javascript classes to typescript" />
+    <MESSAGE value="Converted RapUI to Python 3.5.2&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted RapUI to Python 3.5.2&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts</url>
+          <line>35</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts</url>
+          <line>155</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1642,7 +1725,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="125" />
+      <option name="time" value="163" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1654,269 +1737,377 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_components/requirejs.config.js">
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.js.map">
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="110" column="50" lean-forward="false" selection-start-line="110" selection-start-column="50" selection-end-line="110" selection-end-column="50" />
+        <state relative-caret-position="195">
+          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/type_script/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/type_script/jquery.ts" />
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/PeekAdmAppMod.ts">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1236078429/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="195">
+          <caret line="5099" column="8" lean-forward="false" selection-start-line="5099" selection-start-column="8" selection-end-line="5099" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/angular_custom/__init__.py">
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/uuid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="559" column="4" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_ts_defines/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.js">
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.js.map">
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/base64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4514" lean-forward="false" selection-start-line="0" selection-start-column="4514" selection-end-line="0" selection-end-column="4514" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilStorableDict.ts">
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/_strptime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="317">
+          <caret line="509" column="0" lean-forward="false" selection-start-line="509" selection-start-column="0" selection-end-line="509" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/Site.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/web/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/web/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/FontResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="74" lean-forward="false" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/HtmlResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ImageResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="74" lean-forward="false" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/RootResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/StyleResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="74" lean-forward="false" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/RapuiStaticResources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/LargeRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/internet/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/1_UtilClass.js" />
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_ts_defines/jQuery.d.ts" />
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_ts_defines/angular/angular.d.ts" />
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/VortexTuning.js" />
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/typings/pako/pako.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../papp_noop/src/papp_noop/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#254#263#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/pako/pako.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/typings/globals/pako/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/python/lib/python2.7/posixpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/ServerPlatformApi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#86#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="47">
+          <caret line="156" column="39" lean-forward="false" selection-start-line="156" selection-start-column="39" selection-end-line="156" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../papp_base/src/papp_base/PappServerMainBase.py">
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilArray.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilString.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilDict.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/typings/globals/require/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="377" column="17" lean-forward="false" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Tuple.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Tuple.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-846">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/typings/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="1590">
+          <caret line="106" column="33" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="262" column="45" lean-forward="false" selection-start-line="262" selection-start-column="45" selection-end-line="262" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="177" column="61" lean-forward="true" selection-start-line="177" selection-start-column="61" selection-end-line="177" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="182" column="20" lean-forward="false" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.ts">
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="107" column="28" lean-forward="false" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Xmlable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/bower_components/php-date-formatter/js/php-date-formatter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8157">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/thenify-all/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/common/common.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="155" column="64" lean-forward="false" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/common/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="e#265#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1980">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomProtocol.py.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1924,118 +2115,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.ts">
+    <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="-283">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/RapuiStubs.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="673" column="4" lean-forward="false" selection-start-line="673" selection-start-column="4" selection-end-line="673" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadIO.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadEndpoint.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="244" column="20" lean-forward="false" selection-start-line="244" selection-start-column="20" selection-end-line="244" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/jquery/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="3227" column="0" lean-forward="false" selection-start-line="3227" selection-start-column="0" selection-end-line="3227" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngularCustom.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-          <folding>
-            <element signature="e#70#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="227" column="42" lean-forward="true" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

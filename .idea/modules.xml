@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../celery_py3_test/.idea/celery_py3_test.iml" filepath="$PROJECT_DIR$/../celery_py3_test/.idea/celery_py3_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../json-cfg/.idea/json-cfg.iml" filepath="$PROJECT_DIR$/../json-cfg/.idea/json-cfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" filepath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" filepath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" />

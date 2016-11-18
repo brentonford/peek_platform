@@ -28,8 +28,8 @@ class PeekFileConfigBase(object):
     This class creates a basic agent configuration
     """
 
-    DEFAULT_FILE_CHMOD = 0600
-    DEFAULT_DIR_CHMOD = 0700
+    DEFAULT_FILE_CHMOD = 0o600
+    DEFAULT_DIR_CHMOD = 0o700
 
     __instance = None
 

@@ -14,7 +14,7 @@ import shutil
 import sys
 import tarfile
 import tempfile
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 import os
 from os.path import expanduser
@@ -49,7 +49,7 @@ class PeekSwInstallManagerBase:
         if targetVersion:
             args["version"] = str(targetVersion)
 
-        url += urllib.urlencode(args)
+        url += urllib.parse.urlencode(args)
 
         (dir, file) = yield rapuiHttpFileDownloader(url)
         if file.size == 0:
@@ -88,7 +88,7 @@ class PeekSwInstallManagerBase:
 
         runPycFileName = 'run_%s.pyc' % PeekPlatformConfig.componentName
 
-        runPycFile = filter(lambda f: f.name == runPycFileName, directory.files)
+        runPycFile = [f for f in directory.files if f.name == runPycFileName]
         if len(runPycFile) != 1:
             raise Exception("Uploaded archive does not contain Peek Platform software"
                             ", Expected 1 %a, got %s" % (runPycFileName, len(runPycFile)))

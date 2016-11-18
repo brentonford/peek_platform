@@ -14,7 +14,7 @@ import logging
 import shutil
 import tarfile
 import tempfile
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 import os
 from twisted.internet import reactor, defer
@@ -48,7 +48,7 @@ class PappSwInstallManagerBase:
         if targetVersion:
             args["version"] = str(targetVersion)
 
-        url += urllib.urlencode(args)
+        url += urllib.parse.urlencode(args)
 
         (dir, file) = yield rapuiHttpFileDownloader(url)
         if file.size == 0:
@@ -74,8 +74,7 @@ class PappSwInstallManagerBase:
         tarfile.open(fullTarPath).extractall(directory.path)
         directory.scan()
 
-        pappVersionJson = filter(lambda f: f.name == pappVersionJsonFileName,
-                                 directory.files)
+        pappVersionJson = [f for f in directory.files if f.name == pappVersionJsonFileName]
 
         if len(pappVersionJson) != 1:
             raise Exception("Archive does not contain Peek App software"

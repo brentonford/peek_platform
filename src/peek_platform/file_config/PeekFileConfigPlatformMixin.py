@@ -13,7 +13,7 @@ class PeekFileConfigPlatformMixin:
     def loggingLevel(self):
         with self._cfg as c:
             lvl = c.logging.level.installed("INFO", require_string)
-            if lvl in logging._levelNames:
+            if lvl in logging._nameToLevel:
                 return lvl
 
             logger.warn("Logging level %s is not valid, defauling to INFO", lvl)

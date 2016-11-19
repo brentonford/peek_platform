@@ -6,133 +6,25 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/node_modules" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/typings/globals/jquery/index.d.ts" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../rapui/src/rapui/typings/globals/jquery/typings.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" afterPath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../old-peek_agent_pof/src/peek_agent_pof/realtime/__init__.py" afterPath="$PROJECT_DIR$/../old-peek_agent_pof/src/peek_agent_pof/realtime/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" afterPath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_base/src/papp_base/worker/CeleryDbConnInit.py" afterPath="$PROJECT_DIR$/../papp_base/src/papp_base/worker/CeleryDbConnInit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" afterPath="$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/RealtimePollerSoap.py" afterPath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/RealtimePollerSoap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/old_Soap.py" afterPath="$PROJECT_DIR$/../papp_diagram/examples/old_soap/old_Soap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPage.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPages.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_display/EnmacImportPages.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispColor.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispColor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLayer.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLayer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLevel.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLevel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLineStyle.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispLineStyle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispTextStyle.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/grid/imp_lookup/EnmacImportDispTextStyle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomProtocol.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomProtocol.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/PopupMenuItemMaker.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/PopupMenuItemMaker.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/admin/coordset/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/admin/coordset/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/app/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/cache/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/cache/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/canvas/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/canvas/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/dashboard/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/dashboard/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/navbar/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/navbar/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/popup_menu/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/popup_menu/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/splash/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/client/user/splash/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/ClientGridHandler.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/ClientGridHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/client/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/data_cache/DispLookupDataCache.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/data_cache/DispLookupDataCache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispGrid.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispGrid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispLiveDbLinks.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportDispLiveDbLinks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportLookup.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/AgentImportLookup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/grid/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/live_db/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/live_db/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/livedb/__init__.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/server/livedb/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/Display.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/Display.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/LiveDb.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/storage/LiveDb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/CeleryApp.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/CeleryApp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DbConnectionInit.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DbConnectionInit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexer.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexerTask.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/DispQueueIndexerTask.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompiler.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompiler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompilerTask.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/GridKeyQueueCompilerTask.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/tasks.py" afterPath="$PROJECT_DIR$/../papp_diagram/src/papp_diagram/worker/tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/.idea/papp_mobile.iml" afterPath="$PROJECT_DIR$/../papp_mobile/.idea/papp_mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/app/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/JobHandler.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/JobHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/job/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/logonoff/__init__.py" afterPath="$PROJECT_DIR$/../papp_mobile/src/papp_mobile/ui_test/logonoff/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" afterPath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtil.py" afterPath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtilTest.py" afterPath="$PROJECT_DIR$/../papp_model/src/papp_model/server/model/ModelUtilTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" afterPath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappWorkerMain.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/PappWorkerMain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/admin/__init__.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/admin/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/__init__.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/noopadm/__init__.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/client/noopadm/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/NoopCeleryTaskMaster.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/NoopCeleryTaskMaster.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/model/ModelUtil.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/server/model/ModelUtil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/storage/DeclarativeBase.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/storage/DeclarativeBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_noop/src/papp_noop/worker/NoopCeleryApp.py" afterPath="$PROJECT_DIR$/../papp_noop/src/papp_noop/worker/NoopCeleryApp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/peek_agent/__init__.py" afterPath="$PROJECT_DIR$/../peek_agent/src/peek_agent/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/peek_agent/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_agent/src/peek_agent/sw_install/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" afterPath="$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/__init__.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoader.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/papp/PappClientLoaderTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client/src/peek_client/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_client/src/peek_client/sw_install/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/peek_platform.iml" afterPath="$PROJECT_DIR$/.idea/peek_platform.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../papp_base/src/papp_base/storage/DbConnBase.py" afterPath="$PROJECT_DIR$/../papp_base/src/papp_base/storage/DbConnBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/peek_agent/papp/PappAgentLoader.py" afterPath="$PROJECT_DIR$/../peek_agent/src/peek_agent/papp/PappAgentLoader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_agent/src/peek_agent/papp/PappAgentLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_agent/src/peek_agent/papp/PappAgentLoaderTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf.py" afterPath="$PROJECT_DIR$/conf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/CeleryApp.py" afterPath="$PROJECT_DIR$/src/peek_platform/CeleryApp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPlatformMixin.py" afterPath="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPlatformMixin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_install/__init__.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_install/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peek_platform/sw_version/__init__.py" afterPath="$PROJECT_DIR$/src/peek_platform/sw_version/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" afterPath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/alembic/env.py" afterPath="$PROJECT_DIR$/../peek_server.lic/alembic/env.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/alembic/versions/36e4ba804a5d_removed_ethernet_mac.py" afterPath="$PROJECT_DIR$/../peek_server.lic/alembic/versions/36e4ba804a5d_removed_ethernet_mac.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/ServerFingerPrint.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/ServerFingerPrint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/License.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/License.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/__init__.py" afterPath="$PROJECT_DIR$/../peek_server.lic/src/peeklic/orm/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" afterPath="$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/alembic/versions/c5e78990adf6_added_initial_tables.py" afterPath="$PROJECT_DIR$/../peek_server/alembic/versions/c5e78990adf6_added_initial_tables.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/dashboard/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/dashboard/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/environment/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/environment/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/login/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/login/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/navbar/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/navbar/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/setting/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/setting/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/update/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/admin/update/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoaderTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthRealm.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthRealm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthValue.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/auth/AuthValue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_install/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_version/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/Setting.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/Setting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py" afterPath="$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" afterPath="$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/__init__.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoader.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoaderTest.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PappWorkerLoaderTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PeekWorkerApi.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/papp/PeekWorkerApi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_worker/src/peek_worker/sw_install/__init__.py" afterPath="$PROJECT_DIR$/../peek_worker/src/peek_worker/sw_install/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" afterPath="$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pof_api/src/pof_api/pof_soap/__init__.py" afterPath="$PROJECT_DIR$/../pof_api/src/pof_api/pof_soap/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/LoggingSetup.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/LoggingSetup.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/__init__.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngFormLoadController.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml" afterPath="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" afterPath="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.js.map" afterPath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" afterPath="$PROJECT_DIR$/../rapui/src/rapui/usr_msg_dispatcher/UsrMsgDispatcher.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" afterPath="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" />
@@ -172,12 +64,12 @@
     <SUITE FILE_PATH="coverage/peek_platform$run_peek_client.coverage" NAME="run_peek_client Coverage Results" MODIFIED="1479114691013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_client/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testSavingConfig.coverage" NAME="Unittest PeekFileConfigTest.testSavingConfig Coverage Results" MODIFIED="1478668312107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testAsignment.coverage" NAME="Unittest PeekFileConfigTest.testAsignment Coverage Results" MODIFIED="1478673648642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
-    <SUITE FILE_PATH="coverage/peek_platform$rapui_server.coverage" NAME="rapui_server Coverage Results" MODIFIED="1479477576751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../rapui/src" />
+    <SUITE FILE_PATH="coverage/peek_platform$rapui_server.coverage" NAME="rapui_server Coverage Results" MODIFIED="1479519120939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../rapui/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekAgentConfigTest.coverage" NAME="Unittests in PeekAgentConfigTest Coverage Results" MODIFIED="1478782922165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src/peek_agent" />
     <SUITE FILE_PATH="coverage/peek_platform$peeklic.coverage" NAME="peeklic Coverage Results" MODIFIED="1479037661930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server.lic/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekFileConfigTest__1_.coverage" NAME="Unittests in PeekFileConfigTest (1) Coverage Results" MODIFIED="1478831744167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$run_peek_worker.coverage" NAME="run_peek_worker Coverage Results" MODIFIED="1479114617255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_worker/src" />
-    <SUITE FILE_PATH="coverage/peek_platform$run_peek_server.coverage" NAME="run_peek_server Coverage Results" MODIFIED="1479512912266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server/src" />
+    <SUITE FILE_PATH="coverage/peek_platform$run_peek_server.coverage" NAME="run_peek_server Coverage Results" MODIFIED="1479515651506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_server/src" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittests_in_PeekFileConfigTest.coverage" NAME="Unittests in PeekFileConfigTest Coverage Results" MODIFIED="1478671481727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$Unittest_PeekFileConfigTest_testPlatformDetails.coverage" NAME="Unittest PeekFileConfigTest.testPlatformDetails Coverage Results" MODIFIED="1478685839214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/peek_platform/file_config" />
     <SUITE FILE_PATH="coverage/peek_platform$run_peek_agent.coverage" NAME="run_peek_agent Coverage Results" MODIFIED="1479019540718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../peek_agent/src" />
@@ -193,83 +85,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.49604467">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="JavascriptElement.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py">
+          <file leaf-file-name="NoopWorkerTask.py" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/peek_server.home/papp_software/papp_noop_b161113.1813#61/cpython/papp_noop/worker/NoopWorkerTask.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#265#274#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HtmlTemplate.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RealtimeValue.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-283">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#14#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RealtimePollerEcomFactory.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimePollerEcomFactory.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-495">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#14#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SerialiseUtil.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/SerialiseUtil.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2400">
-                  <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Jsonable.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2325">
-                  <caret line="155" column="64" lean-forward="false" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="64" />
-                  <folding>
-                    <element signature="e#0#44#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/node_modules/common/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="0">
-                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -278,12 +99,46 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Jsonable.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Jsonable.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+                <state relative-caret-position="365">
+                  <caret line="120" column="20" lean-forward="false" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ResourceUtil.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="137">
+                  <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DbConnBase.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../papp_base/src/papp_base/storage/DbConnBase.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#224#238#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="env.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../papp_diagram/alembic/env.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -349,19 +204,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../papp_diagram" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rapui" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/1_Util.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/bower_components/angular/angular.js" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/node_modules/jquery/index.d.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadFiterKeys.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/tsconfig.json" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/PayloadIO.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/js_util/UtilEvent.ts" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/angular_custom/AngularCustom.ts" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/handler/OrmCrudHandler.py" />
         <option value="$PROJECT_DIR$/../rapui/src/cpython-27-packages" />
         <option value="$PROJECT_DIR$/../rapui/py3-build.txt" />
@@ -377,7 +224,6 @@
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/LargeRequest.py" />
         <option value="$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/web/http.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/VortexResource.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/LoggingSetup.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/RapuiStaticResources.py" />
@@ -387,7 +233,6 @@
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlResource.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ImageResource.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/StyleResource.py" />
-        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/.bowerrc" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/package.json" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.js" />
@@ -405,6 +250,16 @@
         <option value="$PROJECT_DIR$/../rapui/src/rapui/vortex/Payload.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/JavascriptElement.py" />
         <option value="$PROJECT_DIR$/../rapui/src/rapui/site/HtmlTemplate.xml" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPlatformMixin.py" />
+        <option value="$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/LoggingSetup.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py" />
+        <option value="$PROJECT_DIR$/../papp_base/src/papp_base/storage/DbConnBase.py" />
+        <option value="$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py" />
+        <option value="$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py" />
       </list>
     </option>
   </component>
@@ -710,6 +565,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="papp_diagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="papp_diagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alembic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -750,7 +633,7 @@
       <recent name="$PROJECT_DIR$/../papp_noop/src/papp_noop/server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_peek_server">
+  <component name="RunManager" selected="JavaScript Debug.htttp://10.2.56.14:8000">
     <configuration default="false" name="run_peek_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1121,17 +1004,29 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.run_peek_server" />
-      <item index="1" class="java.lang.String" itemvalue="Python.run_peek_worker" />
-      <item index="2" class="java.lang.String" itemvalue="Python.peeklic" />
-      <item index="3" class="java.lang.String" itemvalue="Python.run_peek_client" />
-      <item index="4" class="java.lang.String" itemvalue="Python.rapui_server" />
+    <configuration default="false" name="htttp://10.2.56.14:8000" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="htttp://10.2.56.14:8000">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.htttp://10.2.56.14:8000" />
+      <item index="1" class="java.lang.String" itemvalue="npm.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run_peek_server" />
+      <item index="3" class="java.lang.String" itemvalue="Python.run_peek_worker" />
+      <item index="4" class="java.lang.String" itemvalue="Python.peeklic" />
+      <item index="5" class="java.lang.String" itemvalue="Python.run_peek_client" />
+      <item index="6" class="java.lang.String" itemvalue="Python.rapui_server" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_peek_server" />
-        <item index="1" class="java.lang.String" itemvalue="Python.rapui_server" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rapui_server" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run_peek_server" />
         <item index="2" class="java.lang.String" itemvalue="Python.run_peek_client" />
         <item index="3" class="java.lang.String" itemvalue="Python.run_peek_worker" />
         <item index="4" class="java.lang.String" itemvalue="Python.peeklic" />
@@ -1151,13 +1046,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478574244493</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Remvoed use of alias from bamboo_ut.sh script">
-      <created>1478823904375</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1478823904375</updated>
     </task>
     <task id="LOCAL-00019" summary="Updated all make_deploy scripts to use the bamboo date">
       <created>1478825747366</created>
@@ -1495,7 +1383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479465436160</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Converted Peek to Python 3.5.2&#10;">
+      <created>1479513366356</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1479513366358</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1674,7 +1569,6 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Added gitignore" />
     <MESSAGE value="papp is now built with pypy and cpython" />
     <MESSAGE value="Updated papp make_deploy" />
     <MESSAGE value="Getting celery tasks stopping and restarting" />
@@ -1699,7 +1593,8 @@
     <MESSAGE value="Papps admin pages now work." />
     <MESSAGE value="Rewrote all javascript classes to typescript" />
     <MESSAGE value="Converted RapUI to Python 3.5.2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted RapUI to Python 3.5.2&#10;" />
+    <MESSAGE value="Converted Peek to Python 3.5.2&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted Peek to Python 3.5.2&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1725,7 +1620,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="163" />
+      <option name="time" value="165" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1737,125 +1632,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/json/encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1236078429/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5099" column="8" lean-forward="false" selection-start-line="5099" selection-start-column="8" selection-end-line="5099" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/uuid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="559" column="4" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Vortex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/_strptime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="509" column="0" lean-forward="false" selection-start-line="509" selection-start-column="0" selection-end-line="509" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/Site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/web/resource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/web/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/FontResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="74" lean-forward="false" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/HtmlResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="74" lean-forward="false" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ImageResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="74" lean-forward="false" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/RootResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/StyleResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="74" lean-forward="false" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/RapuiStaticResources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/LargeRequest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1874,13 +1650,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1916,14 +1686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="106" column="33" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1974,7 +1736,7 @@
         <state relative-caret-position="2685">
           <caret line="182" column="20" lean-forward="false" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2000,7 +1762,7 @@
         <state relative-caret-position="465">
           <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2047,7 +1809,7 @@
         <state relative-caret-position="2325">
           <caret line="155" column="64" lean-forward="false" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="64" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2068,7 +1830,7 @@
         <state relative-caret-position="720">
           <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding>
-            <element signature="e#265#274#0" expanded="true" />
+            <element signature="e#265#274#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2086,7 +1848,7 @@
         <state relative-caret-position="-495">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2115,6 +1877,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PappSwDownloadResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_download/PeekSwDownloadResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/server/sw_upload/PeekSwUploadResource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="107" column="12" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPlatformMixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/vortex/Jsonable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="120" column="20" lean-forward="false" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/tempfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="521" column="4" lean-forward="false" selection-start-line="521" selection-start-column="4" selection-end-line="521" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1236078429/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="368" column="3" lean-forward="true" selection-start-line="368" selection-start-column="3" selection-end-line="368" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peek_platform/papp/PappLoaderBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/run_peek_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/LoggingSetup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../papp_diagram/src/papp_diagram/agent/realtime/RealtimeValue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
@@ -2122,6 +1972,76 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_base/src/papp_base/storage/DbConnBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#224#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../papp_diagram/alembic/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/storage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="122" column="28" lean-forward="false" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+          <folding>
+            <element signature="e#256#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server/src/peek_server/papp/PappServerLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="57" column="72" lean-forward="true" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/peek_server.home/papp_software/papp_noop_b161113.1813#61/cpython/papp_noop/server/NoopCeleryTaskMaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/peek_server.home/papp_software/papp_noop_b161113.1813#61/cpython/papp_noop/PappServerMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapui/src/rapui/site/ResourceUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/peek_server.home/papp_software/papp_noop_b161113.1813#61/cpython/papp_noop/worker/NoopWorkerTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

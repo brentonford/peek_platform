@@ -9,12 +9,12 @@ from peek_platform import PeekPlatformConfig
 logger = logging.getLogger(__name__)
 
 
-class PappLoaderBase():
+class PappLoaderBase(object):
     _instance = None
 
     def __new__(cls, *args, **kwargs):
         assert cls._instance is None, "PappServerLoader is a singleton, don't construct it"
-        cls._instance = cls()
+        cls._instance = object.__new__(cls)
         return cls._instance
 
     def __init__(self):

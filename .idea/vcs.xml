@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../json-cfg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../json-cfg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ng2-balloon-msg" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../old-peek_agent_pof" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_base" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../papp_diagram" vcs="Git" />
@@ -17,8 +18,11 @@
     <mapping directory="$PROJECT_DIR$/../peek_server.lic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_worker" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pof_api" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../rapui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pydirectory" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../txCelery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../txhttputil" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../txsuds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../vortexjs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../vortexpy" vcs="Git" />
   </component>
 </project>

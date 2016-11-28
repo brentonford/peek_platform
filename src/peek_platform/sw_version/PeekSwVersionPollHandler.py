@@ -6,8 +6,8 @@ Created on 09/07/2014
 
 from twisted.internet.defer import Deferred, DeferredList
 
-from rapui.vortex.Payload import Payload
-from rapui.vortex.PayloadEndpoint import PayloadEndpoint
+from txhttputil import Payload
+from txhttputil import PayloadEndpoint
 
 __author__ = 'peek'
 import logging

@@ -10,20 +10,22 @@
  *
 """
 import logging
+import os
 import shutil
 import sys
 import tarfile
 import tempfile
-import urllib.request, urllib.parse, urllib.error
-
-import os
+import urllib.error
+import urllib.parse
+import urllib.request
 from os.path import expanduser
+
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
-from rapui.DeferUtil import printFailure, deferToThreadWrap
-from rapui.util.Directory import Directory
-from rapui.util.RapuiHttpFileDownloader import rapuiHttpFileDownloader
+from txhttputil import Directory
+from txhttputil import deferToThreadWrap
+from txhttputil import rapuiHttpFileDownloader
 
 logger = logging.getLogger(__name__)
 

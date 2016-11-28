@@ -6,12 +6,16 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5.2 (~/cpython-3.5.2/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="rapui" />
+    <orderEntry type="module" module-name="txhttputil" />
     <orderEntry type="module" module-name="json-cfg" />
     <orderEntry type="module" module-name="old-peek_agent_pof" />
     <orderEntry type="module" module-name="peek_client" />
     <orderEntry type="module" module-name="celery_py3_test" />
     <orderEntry type="module" module-name="peek_agent" />
+    <orderEntry type="module" module-name="ng2-balooon-msg" />
+    <orderEntry type="module" module-name="vortexpy" />
+    <orderEntry type="module" module-name="vortexjs" />
+    <orderEntry type="module" module-name="pydirectory" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

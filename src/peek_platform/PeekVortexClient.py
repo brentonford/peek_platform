@@ -1,6 +1,6 @@
 import logging
 
-from rapui.vortex.VortexClient import VortexClient
+from txhttputil import VortexClient
 
 logger = logging.getLogger(__name__)
 

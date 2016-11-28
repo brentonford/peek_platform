@@ -11,21 +11,23 @@
 """
 import json
 import logging
+import os
 import shutil
 import tarfile
 import tempfile
-import urllib.request, urllib.parse, urllib.error
+import urllib.error
+import urllib.parse
+import urllib.request
 
-import os
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
 from peek_platform import PeekPlatformConfig
 from peek_platform.file_config.PeekFileConfigPlatformMixin import \
     PeekFileConfigPlatformMixin
-from rapui.DeferUtil import deferToThreadWrap
-from rapui.util.Directory import Directory
-from rapui.util.RapuiHttpFileDownloader import rapuiHttpFileDownloader
+from txhttputil import Directory
+from txhttputil import deferToThreadWrap
+from txhttputil import rapuiHttpFileDownloader
 
 logger = logging.getLogger(__name__)
 

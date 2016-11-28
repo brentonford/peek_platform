@@ -1,4 +1,4 @@
-from rapui.vortex.Tuple import addTupleType, Tuple, TupleField
+from txhttputil import addTupleType, Tuple, TupleField
 
 
 @addTupleType

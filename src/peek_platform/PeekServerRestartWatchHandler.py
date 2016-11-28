@@ -5,8 +5,9 @@ Created on 09/07/2014
 '''
 import logging
 
-from rapui.vortex.Payload import Payload
-from rapui.vortex.PayloadEndpoint import PayloadEndpoint
+from txhttputil.vortex.Payload import Payload
+
+from txhttputil import PayloadEndpoint
 
 __author__ = 'peek'
 

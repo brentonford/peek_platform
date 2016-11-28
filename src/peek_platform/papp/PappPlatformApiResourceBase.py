@@ -1,5 +1,7 @@
-from rapui.site.RapuiStaticResources import RapuiStaticResources
-from rapui.site.RootResource import callResourceCreators, RootResource
+from txhttputil.site.StaticFileMultiPath import RapuiStaticResources
+from twisted.web.resource import Resource
+
+from txhttputil.site.RootResource import callResourceCreators, RootResource
 
 
 class PappPlatformApiResourceBase:
@@ -7,15 +9,15 @@ class PappPlatformApiResourceBase:
         self.__staticResources = RapuiStaticResources()
         self.__resourceCreators = {}
 
-    def addStaticResourceDir(self, dir):
+    def addStaticResourceDir(self, dir) -> None:
         self.__staticResources.addStaticResourceDir(dir)
 
-    def addResourceCreator(self, pappSubPath, resourceCreatorFunc):
+    def addResourceCreator(self, pappSubPath, resourceCreatorFunc) -> None:
         pappSubPath = pappSubPath.strip('/')
         assert pappSubPath not in resourceCreatorFunc
         self.__resourceCreators[pappSubPath] = resourceCreatorFunc
 
-    def __createPappRootResource(self, userAccess):
+    def __createPappRootResource(self, userAccess) -> Resource:
         pappRoot = RootResource(userAccess)
         self.__staticResources.addToResource(pappRoot, userAccess)
 

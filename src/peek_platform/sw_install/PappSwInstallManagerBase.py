@@ -25,9 +25,9 @@ from twisted.internet.defer import inlineCallbacks
 from peek_platform import PeekPlatformConfig
 from peek_platform.file_config.PeekFileConfigPlatformMixin import \
     PeekFileConfigPlatformMixin
-from txhttputil import Directory
-from txhttputil import deferToThreadWrap
-from txhttputil import rapuiHttpFileDownloader
+from pydirectory.Directory import Directory
+from txhttputil.downloader.HttpFileDownloader import HttpFileDownloader
+from vortex.Payload import deferToThreadWrap
 
 logger = logging.getLogger(__name__)
 
@@ -52,7 +52,7 @@ class PappSwInstallManagerBase:
 
         url += urllib.parse.urlencode(args)
 
-        (dir, file) = yield rapuiHttpFileDownloader(url)
+        file = yield HttpFileDownloader(url).run()
         if file.size == 0:
             logger.warning(
                 "Peek server doesn't have any updates for agent %s, version %s",

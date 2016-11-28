@@ -5,9 +5,8 @@ Created on 09/07/2014
 '''
 import logging
 
-from txhttputil.vortex.Payload import Payload
-
-from txhttputil import PayloadEndpoint
+from vortex.Payload import Payload
+from vortex.PayloadEndpoint import PayloadEndpoint
 
 __author__ = 'peek'
 

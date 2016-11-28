@@ -23,9 +23,9 @@ from os.path import expanduser
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
-from txhttputil import Directory
-from txhttputil import deferToThreadWrap
-from txhttputil import rapuiHttpFileDownloader
+from pydirectory.Directory import Directory
+from txhttputil.downloader.HttpFileDownloader import HttpFileDownloader
+from txhttputil.util.DeferUtil import deferToThreadWrap
 
 logger = logging.getLogger(__name__)
 
@@ -53,13 +53,13 @@ class PeekSwInstallManagerBase:
 
         url += urllib.parse.urlencode(args)
 
-        (dir, file) = yield rapuiHttpFileDownloader(url)
+        file = yield HttpFileDownloader(url).run()
         if file.size == 0:
             logger.warning("Peek server doesn't have any updates for %s, version %s",
                            PeekPlatformConfig.componentName, targetVersion)
             return
 
-        yield self._blockingInstallUpdate(targetVersion, file.realPath)
+        yield self._blockingInstallUpdate(targetVersion, file.name)
 
         defer.returnValue(targetVersion)
 
@@ -72,7 +72,6 @@ class PeekSwInstallManagerBase:
             PeekPlatformConfig.config.platformSoftwarePath,
             'peek_platform_%s' % targetVersion,
             '%s_%s.tar.bz2' % (PeekPlatformConfig.componentName, targetVersion))
-
 
         yield self._blockingInstallUpdate(targetVersion, newSoftwareTar)
 
@@ -93,7 +92,7 @@ class PeekSwInstallManagerBase:
         runPycFile = [f for f in directory.files if f.name == runPycFileName]
         if len(runPycFile) != 1:
             raise Exception("Uploaded archive does not contain Peek Platform software"
-                            ", Expected 1 %a, got %s" % (runPycFileName, len(runPycFile)))
+                            ", Expected 1 %s, got %s" % (runPycFileName, len(runPycFile)))
         runPycFile = runPycFile[0]
 
         if '/' in runPycFile.path:

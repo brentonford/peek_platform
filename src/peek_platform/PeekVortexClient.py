@@ -1,6 +1,6 @@
 import logging
 
-from txhttputil import VortexClient
+from vortex.VortexClient import VortexClient
 
 logger = logging.getLogger(__name__)
 

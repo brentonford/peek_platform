@@ -9,13 +9,14 @@
     <orderEntry type="module" module-name="txhttputil" />
     <orderEntry type="module" module-name="json-cfg" />
     <orderEntry type="module" module-name="old-peek_agent_pof" />
-    <orderEntry type="module" module-name="peek_client" />
+    <orderEntry type="module" module-name="peek_client_be" />
     <orderEntry type="module" module-name="celery_py3_test" />
     <orderEntry type="module" module-name="peek_agent" />
-    <orderEntry type="module" module-name="ng2-balooon-msg" />
+    <orderEntry type="module" module-name="ng2-balloon-msg" />
     <orderEntry type="module" module-name="vortexpy" />
     <orderEntry type="module" module-name="vortexjs" />
     <orderEntry type="module" module-name="pydirectory" />
+    <orderEntry type="module" module-name="peek_client_fe" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

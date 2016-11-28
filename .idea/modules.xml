@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../celery_py3_test/.idea/celery_py3_test.iml" filepath="$PROJECT_DIR$/../celery_py3_test/.idea/celery_py3_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../json-cfg/.idea/json-cfg.iml" filepath="$PROJECT_DIR$/../json-cfg/.idea/json-cfg.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ng2-balloon-msg/.idea/ng2-balooon-msg.iml" filepath="$PROJECT_DIR$/../ng2-balloon-msg/.idea/ng2-balooon-msg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ng2-balloon-msg/.idea/ng2-balloon-msg.iml" filepath="$PROJECT_DIR$/../ng2-balloon-msg/.idea/ng2-balloon-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" filepath="$PROJECT_DIR$/../old-peek_agent_pof/.idea/old-peek_agent_pof.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" filepath="$PROJECT_DIR$/../papp_base/.idea/papp_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" filepath="$PROJECT_DIR$/../papp_diagram/.idea/papp_diagram.iml" />
@@ -12,7 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" filepath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" filepath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_agent/.idea/peek_agent.iml" filepath="$PROJECT_DIR$/../peek_agent/.idea/peek_agent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" filepath="$PROJECT_DIR$/../peek_client/.idea/peek_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../peek_client_be/.idea/peek_client_be.iml" filepath="$PROJECT_DIR$/../peek_client_be/.idea/peek_client_be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../peek_client_fe/.idea/peek_client_fe.iml" filepath="$PROJECT_DIR$/../peek_client_fe/.idea/peek_client_fe.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/peek_platform.iml" filepath="$PROJECT_DIR$/.idea/peek_platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" filepath="$PROJECT_DIR$/../peek_server/.idea/peek_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" filepath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" />

@@ -1,4 +1,4 @@
-from txhttputil import addTupleType, Tuple, TupleField
+from vortex.Tuple import addTupleType, Tuple, TupleField
 
 
 @addTupleType

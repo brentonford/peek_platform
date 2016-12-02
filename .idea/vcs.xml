@@ -17,6 +17,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_server.lic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_server_be" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../peek_server_be" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_server_fe" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_worker" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../pof_api" vcs="Git" />

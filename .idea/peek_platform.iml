@@ -18,6 +18,7 @@
     <orderEntry type="module" module-name="pydirectory" />
     <orderEntry type="module" module-name="peek_client_fe" />
     <orderEntry type="module" module-name="peek_server_fe" />
+    <orderEntry type="module" module-name="peek_server_be" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

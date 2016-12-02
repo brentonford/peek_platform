@@ -11,17 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd22ba02-bb56-472f-ac70-6c4075be77d7" name="Default" comment="Debugged imports">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/angular-cli.json" afterPath="$PROJECT_DIR$/../peek_client_fe/angular-cli.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.html" afterPath="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.ts" afterPath="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.css" afterPath="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.html" afterPath="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_client_fe/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/../peek_client_fe/src/app/home/home.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../peek_server_fe/proxy.conf.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmCapabilitiesMod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmCapabilitiesView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdateMod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdateMod.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdateMod.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdatePappMod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdatePappView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdatePlatformMod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../peek_server_be/peek_server/backend/update/PeekAdmUpdatePlatformView.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/peek_platform.iml" afterPath="$PROJECT_DIR$/.idea/peek_platform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server_fe/package.json" afterPath="$PROJECT_DIR$/../peek_server_fe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server_fe/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/../peek_server_fe/src/app/app-routing.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server_fe/src/app/app.component.html" afterPath="$PROJECT_DIR$/../peek_server_fe/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server_fe/src/app/app.module.ts" afterPath="$PROJECT_DIR$/../peek_server_fe/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server_fe/src/app/update/update.component.html" afterPath="$PROJECT_DIR$/../peek_server_fe/src/app/update/update.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../peek_server_fe/src/app/update/update.module.ts" afterPath="$PROJECT_DIR$/../peek_server_fe/src/app/update/update.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../txCelery/.idea/txCelery.iml" afterPath="$PROJECT_DIR$/../txCelery/.idea/txCelery.iml" />
     </list>
     <ignored path="peek_platform.iws" />
@@ -73,48 +81,102 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="PeekAdmLoginElement.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/login/PeekAdmLoginElement.py">
+          <file leaf-file-name="update-license.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/update-license.component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PeekAdmDashboardListHandler.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/dashboard/PeekAdmDashboardListHandler.py">
+          <file leaf-file-name="update-license.component.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/update-license.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="149">
-                  <caret line="15" column="59" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="15" selection-end-column="59" />
-                  <folding>
-                    <marker date="1480405069734" expanded="true" signature="945:1028" ph="SELECT 50 * %s" />
-                  </folding>
+                <state relative-caret-position="720">
+                  <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dashboard-stats.component.spec.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.spec.ts">
+          <file leaf-file-name="update-platform.component.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/update-platform.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="975">
+                  <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="update-platform.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/update-platform.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="795">
+                  <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="update.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="angular-cli.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/angular-cli.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-225">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dashboard-stats.component.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.ts">
+          <file leaf-file-name="proxy.conf.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/proxy.conf.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#0#48#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="90">
+                  <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-229">
+                  <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="update-papp.component.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/update-papp.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="update-papp.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/update-papp.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -122,11 +184,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="run_peek_client_be.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../peek_client_be/run_peek_client_be.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
+                <state relative-caret-position="930">
                   <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
                   <folding>
                     <element signature="e#263#305#0" expanded="true" />
@@ -135,86 +197,88 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dashboard.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard.component.html">
+          <file leaf-file-name="PeekAdmEnvHandler.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/environment/PeekAdmEnvHandler.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1380">
+                  <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/navbar/navbar.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="645">
+                  <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/navbar/navbar.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="6" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="setting-list.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting-list/setting-list.component.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                  <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dashboard.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard.component.ts">
+          <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/app-routing.module.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dashboard-stats.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/internet/defer.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PeekClientRootResource.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/backend/PeekClientRootResource.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SiteUtil.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../txhttputil/txhttputil/site/SiteUtil.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
                   <folding>
-                    <element signature="e#172#186#0" expanded="true" />
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PeekSwVersionTuple.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionTuple.py">
+          <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/main.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#24#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home-icons.component.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.ts">
+          <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/app.module.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="70" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
                   <folding>
-                    <element signature="e#0#48#0" expanded="true" />
+                    <element signature="e#0#56#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/app.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -228,18 +292,14 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_loadDeferred</find>
-      <find>rapui-usr-msg</find>
-      <find>RapuiUsrMsg</find>
-      <find>Baloon</find>
       <find>Ng2BalloonMsgComponent</find>
       <find>Ng2BalloonService</find>
       <find>&lt;p/&gt;</find>
@@ -266,11 +326,12 @@
       <find>, userAccess</find>
       <find>Closure</find>
       <find>write</find>
+      <find>ng-click</find>
+      <find>extends Tuple</find>
+      <find>Column(String, nullable = True, unique = True)</find>
+      <find>peek_server_be</find>
     </findStrings>
     <replaceStrings>
-      <replace>delete</replace>
-      <replace>private</replace>
-      <replace>email</replace>
       <replace>./src</replace>
       <replace>&quot;../src/rapui/</replace>
       <replace>require</replace>
@@ -296,8 +357,11 @@
       <replace>ToVortexMsg</replace>
       <replace>()'</replace>
       <replace>JsonStr</replace>
-      <replace>(click)</replace>
       <replace>self</replace>
+      <replace>(click)</replace>
+      <replace>extends Tuple</replace>
+      <replace>:string;</replace>
+      <replace>peek_server</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../rapui</dir>
@@ -315,57 +379,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../txwebutil/README.md" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/login_page/LoginElement.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/site/AuthResource.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/site/AuthRealm.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/site/AuthSessionWrapper.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/downloader/HttpFileDownloader.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/site/FileUnderlayResource.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/setup.py" />
-        <option value="$PROJECT_DIR$/../peek_client/peek_client_frontend/angular-cli.json" />
-        <option value="$PROJECT_DIR$/../peek_client/peek_client_frontend/package.json" />
-        <option value="$PROJECT_DIR$/../vortexjs/package.json" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/package.json" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/backend/home/HomeModelHanderl.py" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/backend/home/HomeModelHander.py" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.ts" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/home/home.module.ts" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/sw_install/PeekSwInstallManager.py" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/sw_install/PappSwInstallManager.py" />
-        <option value="$PROJECT_DIR$/../pydirectory/src/pydirectory/Directory.py" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/papp/PappClientLoader.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PeekSwInstallManagerBase.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_install/PappSwInstallManagerBase.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/PeekServerRestartWatchHandler.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/PeekVortexClient.py" />
-        <option value="$PROJECT_DIR$/../vortexpy/src/vortex/VortexClient.py" />
-        <option value="$PROJECT_DIR$/../vortexpy/src/vortex/VortexPayloadClientProtocol.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionTuple.py" />
-        <option value="$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionPollHandler.py" />
-        <option value="$PROJECT_DIR$/../txhttputil/txhttputil/site/SiteUtil.py" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/proxy.conf.json" />
-        <option value="$PROJECT_DIR$/../peek_client_be/run_peek_client_be.py" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/backend/PeekClientRootResource.py" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/backend/home/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_client_be/peek_client/backend/__init__.py" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/angular-cli.json" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.html" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.css" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/home/home.component.html" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.spec.ts" />
-        <option value="$PROJECT_DIR$/../peek_client_fe/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/../peek_server_fe/angular-cli.json" />
-        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard.component.html" />
         <option value="$PROJECT_DIR$/../peek_server_be/peek_server/admin/dashboard/PeekAdmDashboardMod.ts" />
         <option value="$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard.component.ts" />
         <option value="$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.html" />
         <option value="$PROJECT_DIR$/../peek_server_be/peek_server/admin/dashboard/PeekAdmDashboardListHandler.py" />
         <option value="$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/environment.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/environment/PeekAdmEnv.html" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/environment/PeekAdmEnvMod.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-agent/env-agent.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-server/env-server.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-worker/env-worker.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-agent/env-agent.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-client/env-client.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-server/env-server.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-worker/env-worker.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-tuples.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/storage/PeekEnv.py" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/environment/PeekAdmEnvHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarMod.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarPappMenuMod.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarTuple.py" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarUserTuple.py" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarPappListHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/navbar/nav-apps/nav-apps.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/navbar/nav-apps/nav-apps.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/setting/PeekAdmSettingMod.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_be/peek_server/backend/setting/PeekAdmSettingHandler.py" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting-list/setting-list.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting-list/setting-list.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/update-license.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/PeekAdmCapabilitiesMod.js" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/update-license.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/PeekAdmUpdatePappMod.js" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/update-papp.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/PeekAdmUpdatePappView.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/update-papp.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/PeekAdmUpdatePlatformMod.js" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/update-platform.component.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/PeekAdmUpdatePlatformView.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/update-platform.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/PeekAdmUpdateMod.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/update/update.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/package.json" />
+        <option value="$PROJECT_DIR$/../peek_server_fe/proxy.conf.json" />
       </list>
     </option>
   </component>
@@ -391,6 +455,7 @@
     <handled-path value="$PROJECT_DIR$/../ng2-balloon-msg/node_modules" />
     <handled-path value="$PROJECT_DIR$/../peek_client_fe/dist/out-tsc/node_modules" />
     <handled-path value="$PROJECT_DIR$/../peek_client_fe/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../peek_server_fe/node_modules" />
     <handled-path value="$PROJECT_DIR$/../vortexjs/dist/out-tsc/node_modules" />
     <handled-path value="$PROJECT_DIR$/../vortexjs/node_modules" />
   </component>
@@ -512,7 +577,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -521,7 +585,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server_fe" />
+              <option name="myItemId" value="peek_server_be" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,29 +595,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server_fe" />
+              <option name="myItemId" value="peek_server_be" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="peek_server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,140 +609,131 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server_fe" />
+              <option name="myItemId" value="peek_server_be" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="peek_server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server_be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server_be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server_be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server_be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server_be" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peek_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_server_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard-stats" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_client_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_client_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_client_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_client_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peek_client_fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home-icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -791,7 +828,7 @@
     <property name="nodejs_interpreter_path" value="$USER_HOME$/node-v7.1.0/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../peek_server_fe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../peek_server_be" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/peek/project/rapui/src/rapui/angular_custom/AngFormLoadController.ts&#10;doc&#9;ACTION&#9;QuickJavaDoc" />
     <property name="js-tslint-nodeInterpreter" value="$USER_HOME$/node-v7.1.0/bin/node" />
     <property name="js-tslint-package" value="$USER_HOME$/node-v7.1.0/lib/node_modules/tslint" />
@@ -805,22 +842,22 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../peek_server_be" />
-      <recent name="$PROJECT_DIR$/../peek_client_fe/src/app/home" />
-      <recent name="$PROJECT_DIR$/../peek_client/peek_client_frontend/src" />
-      <recent name="$PROJECT_DIR$/../peek_client" />
-      <recent name="$PROJECT_DIR$/../peek_client/scripts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../peek_server_fe" />
       <recent name="$PROJECT_DIR$/../peek_client_fe" />
       <recent name="$PROJECT_DIR$/../rapui" />
       <recent name="$PROJECT_DIR$/../vortexpy/src/vortex/site_test" />
       <recent name="$PROJECT_DIR$/../vortexjs/src/tests" />
-      <recent name="$PROJECT_DIR$/../vortexjs/src/vortex" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform" />
+      <recent name="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp" />
+      <recent name="$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license" />
+      <recent name="$PROJECT_DIR$/../peek_server_fe/src/app/update" />
+      <recent name="$PROJECT_DIR$/../peek_server_be" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_peek_client_be">
+  <component name="RunManager" selected="JavaScript Debug.http://10.211.55.14:4200">
     <configuration default="false" name="txhttputil_manual_test_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1273,20 +1310,6 @@
       <option name="presentableId" value="Default" />
       <updated>1478574244493</updated>
     </task>
-    <task id="LOCAL-00039" summary="papp is now built with pypy and cpython">
-      <created>1478869404311</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1478869404311</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Updated papp make_deploy">
-      <created>1478869782215</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1478869782215</updated>
-    </task>
     <task id="LOCAL-00041" summary="Updated papp make_deploy">
       <created>1478869967990</created>
       <option name="number" value="00041" />
@@ -1616,7 +1639,21 @@
       <option name="project" value="LOCAL" />
       <updated>1480405236650</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Tweaked CSS for icons on home screen">
+      <created>1480405276148</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1480405276148</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Converted most of server web page to angular2">
+      <created>1480543110808</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1480543110808</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1665,31 +1702,31 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30048308" sideWeight="0.55644304" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="699" y="26" width="473" height="79" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44541064" sideWeight="0.48935038" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4830918" sideWeight="0.4946752" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47246376" sideWeight="0.5122471" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47246376" sideWeight="0.4834931" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36714977" sideWeight="0.60223645" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47246376" sideWeight="0.49627262" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40869564" sideWeight="0.24600638" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1773163" sideWeight="0.4684838" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17891374" sideWeight="0.4684838" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36714977" sideWeight="0.39776358" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47246376" sideWeight="0.5058573" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47246376" sideWeight="0.5037274" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294686" sideWeight="0.4914803" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36714977" sideWeight="0.39776358" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1738,8 +1775,6 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
-    <MESSAGE value="Renamed project" />
-    <MESSAGE value="client make_deploy updates" />
     <MESSAGE value="Major refactoring to allow serving of static content under sub paths&#10;&#10;EG &#10;&#10;/view&#10;/javascript&#10;&#10;/papp_noop/view&#10;/papp_noop/javascript&#10;etc" />
     <MESSAGE value="Papps admin pages now work." />
     <MESSAGE value="Rewrote all javascript classes to typescript" />
@@ -1763,7 +1798,9 @@
     <MESSAGE value="Global commit of all unversioned files" />
     <MESSAGE value="Debugged imports" />
     <MESSAGE value="Peek Server FE, Initial Creation&#10;Started migrating UI to FE project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Peek Server FE, Initial Creation&#10;Started migrating UI to FE project" />
+    <MESSAGE value="Tweaked CSS for icons on home screen" />
+    <MESSAGE value="Converted most of server web page to angular2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted most of server web page to angular2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1825,59 +1862,50 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vortexpy/src/vortex/VortexClient.py">
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarMod.ts" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarView.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarPappMenuMod.ts" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarPappMenu.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarUserTuple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="103" column="38" lean-forward="false" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="38" />
-          <folding>
-            <element signature="e#171#185#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/sw_version/PeekSwVersionPollHandler.py">
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarPappListHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-805">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#49#106#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vortexpy/src/vortex/VortexPayloadClientProtocol.py">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#172#222#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/PeekClientConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="58" />
+        <state relative-caret-position="645">
+          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peek_platform/file_config/PeekFileConfigPeekServerClientMixin.py">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/navbar/nav-apps/nav-apps.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/proxy.conf.json">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/navbar/nav-apps/nav-apps.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1480333745600" expanded="true" signature="0:113" ph="{...}" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/environment/environment.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1885,129 +1913,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../txhttputil/txhttputil/site/SiteUtil.py">
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/navbar/PeekAdmNavbarHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#172#186#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/home/home.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="69" lean-forward="false" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/sw_install/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/backend/PeekClientRootResource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/cpython-3.5.2/lib/python3.5/site-packages/twisted/internet/defer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/backend/home/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/backend/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/peek_client/backend/home/HomeModelHander.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/setting/PeekAdmSettingView.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/setting/PeekAdmSetting.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -2015,167 +1933,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/environment/PeekAdmEnvMod.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/setting/PeekAdmSettingMod.ts" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/navbar/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/index.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-worker/env-worker.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/environment/env-server/env-server.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/storage/Setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="139" column="37" lean-forward="true" selection-start-line="139" selection-start-column="37" selection-end-line="151" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/setting/PeekAdmSettingHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting-list/setting-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/typings.d.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/setting/setting-list/setting-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="615">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/PeekAdmCapabilitiesView.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/update-license.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/test.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/PeekAdmCapabilitiesMod.js" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-license/update-license.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/update-papp.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/modules/ng2-balloon-msg.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/modules/ng2-balloon-msg.module.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/update-papp.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#136#164#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/app/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/PeekAdmUpdatePappView.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-papp/PeekAdmUpdatePappMod.js" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/update-platform.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="975">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng2-balloon-msg/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/PeekAdmUpdatePlatformMod.js" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/PeekAdmUpdatePlatformView.html" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update-platform/update-platform.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="795">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_client_be/run_peek_client_be.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="e#263#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/dashboard/PeekAdmDashboardList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/dashboard/PeekAdmDashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/PeekAdmUpdateMod.ts" />
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/PeekAdmUpdate.html" />
     <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -2200,73 +2068,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_fe/angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../json-cfg/setup.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../json-cfg/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/login/PeekAdmLoginElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/dashboard/PeekAdmDashboardMod.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../peek_server_be/peek_server/backend/dashboard/PeekAdmDashboardListHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="15" selection-end-column="59" />
-          <folding>
-            <marker date="1480405069734" expanded="true" signature="945:1028" ph="SELECT 50 * %s" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/home/home-icons/home-icons.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="195">
           <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="70" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/dashboard/dashboard-stats/dashboard-stats.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="180">
+          <caret line="17" column="95" lean-forward="false" selection-start-line="17" selection-start-column="95" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_client_fe/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/src/app/update/update.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../peek_server_fe/proxy.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

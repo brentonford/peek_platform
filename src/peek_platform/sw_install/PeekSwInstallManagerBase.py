@@ -23,7 +23,7 @@ from os.path import expanduser
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
-from pydirectory.Directory import Directory
+from pytmpdir.Directory import Directory
 from txhttputil.downloader.HttpFileDownloader import HttpFileDownloader
 from txhttputil.util.DeferUtil import deferToThreadWrap
 

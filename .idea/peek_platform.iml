@@ -6,7 +6,6 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5.2 (~/cpython-3.5.2/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="txhttputil" />
     <orderEntry type="module" module-name="json-cfg" />
     <orderEntry type="module" module-name="old-peek_agent_pof" />
     <orderEntry type="module" module-name="peek_client_be" />
@@ -15,10 +14,10 @@
     <orderEntry type="module" module-name="ng2-balloon-msg" />
     <orderEntry type="module" module-name="vortexpy" />
     <orderEntry type="module" module-name="vortexjs" />
-    <orderEntry type="module" module-name="pydirectory" />
     <orderEntry type="module" module-name="peek_client_fe" />
     <orderEntry type="module" module-name="peek_server_fe" />
     <orderEntry type="module" module-name="peek_server_be" />
+    <orderEntry type="module" module-name="txhttputil" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

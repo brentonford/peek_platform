@@ -20,8 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/../peek_server_fe/.idea/peek_server_fe.iml" filepath="$PROJECT_DIR$/../peek_server_fe/.idea/peek_server_fe.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" filepath="$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" filepath="$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../pydirectory/.idea/pydirectory.iml" filepath="$PROJECT_DIR$/../pydirectory/.idea/pydirectory.iml" />
       <module fileurl="file://$PROJECT_DIR$/../txCelery/.idea/txCelery.iml" filepath="$PROJECT_DIR$/../txCelery/.idea/txCelery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../txhttputil/.idea/txwebutil.iml" filepath="$PROJECT_DIR$/../txhttputil/.idea/txwebutil.iml" />
       <module fileurl="file://$PROJECT_DIR$/../txsuds/.idea/txsuds.iml" filepath="$PROJECT_DIR$/../txsuds/.idea/txsuds.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vortexjs/.idea/vortexjs.iml" filepath="$PROJECT_DIR$/../vortexjs/.idea/vortexjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vortexpy/.idea/vortexpy.iml" filepath="$PROJECT_DIR$/../vortexpy/.idea/vortexpy.iml" />

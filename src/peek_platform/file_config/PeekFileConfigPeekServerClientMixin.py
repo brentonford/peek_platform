@@ -7,7 +7,7 @@ class PeekFileConfigPeekServerClientMixin:
     @property
     def peekServerPort(self):
         with self._cfg as c:
-            return c.peekServer.port(8000, require_integer)
+            return c.peekServer.port(8011, require_integer)
 
 
     @property

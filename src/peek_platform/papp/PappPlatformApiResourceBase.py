@@ -1,26 +1,20 @@
-from txhttputil.site.StaticFileMultiPath import RapuiStaticResources
 from twisted.web.resource import Resource
 
-from txhttputil.site.RootResource import callResourceCreators, RootResource
+from txhttputil.site.BasicResource import BasicResource
+from txhttputil.site.FileUnderlayResource import FileUnderlayResource
 
 
 class PappPlatformApiResourceBase:
     def __init__(self):
-        self.__staticResources = RapuiStaticResources()
-        self.__resourceCreators = {}
+        self.__rootResource = FileUnderlayResource()
 
-    def addStaticResourceDir(self, dir) -> None:
-        self.__staticResources.addStaticResourceDir(dir)
+    def addStaticResourceDir(self, dir: str) -> None:
+        self.__rootResource.addFileSystemRoot(dir)
 
-    def addResourceCreator(self, pappSubPath, resourceCreatorFunc) -> None:
-        pappSubPath = pappSubPath.strip('/')
-        assert pappSubPath not in resourceCreatorFunc
-        self.__resourceCreators[pappSubPath] = resourceCreatorFunc
+    def addResource(self, pappSubPath: bytes, resource: BasicResource) -> None:
+        pappSubPath = pappSubPath.strip(b'/')
+        self.__rootResource.putChild(pappSubPath, resource)
 
-    def __createPappRootResource(self, userAccess) -> Resource:
-        pappRoot = RootResource(userAccess)
-        self.__staticResources.addToResource(pappRoot, userAccess)
-
-        callResourceCreators(self.__resourceCreators, pappRoot, userAccess)
-
-        return pappRoot
+    @property
+    def rootResource(self) -> BasicResource:
+        return self.__rootResource

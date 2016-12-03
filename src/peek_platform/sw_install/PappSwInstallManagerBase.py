@@ -19,13 +19,13 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from pytmpdir.Directory import Directory
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
 from peek_platform import PeekPlatformConfig
 from peek_platform.file_config.PeekFileConfigPlatformMixin import \
     PeekFileConfigPlatformMixin
-from pydirectory.Directory import Directory
 from txhttputil.downloader.HttpFileDownloader import HttpFileDownloader
 from vortex.Payload import deferToThreadWrap
 

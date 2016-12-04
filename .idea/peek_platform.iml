@@ -8,7 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="json-cfg" />
     <orderEntry type="module" module-name="old-peek_agent_pof" />
-    <orderEntry type="module" module-name="peek_client_be" />
+    <orderEntry type="module" module-name="peek_client" />
     <orderEntry type="module" module-name="celery_py3_test" />
     <orderEntry type="module" module-name="peek_agent" />
     <orderEntry type="module" module-name="ng2-balloon-msg" />
@@ -16,7 +16,7 @@
     <orderEntry type="module" module-name="vortexjs" />
     <orderEntry type="module" module-name="peek_client_fe" />
     <orderEntry type="module" module-name="peek_server_fe" />
-    <orderEntry type="module" module-name="peek_server_be" />
+    <orderEntry type="module" module-name="peek_server" />
     <orderEntry type="module" module-name="txhttputil" />
   </component>
   <component name="TestRunnerService">

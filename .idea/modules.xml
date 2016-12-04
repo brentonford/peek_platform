@@ -12,11 +12,11 @@
       <module fileurl="file://$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" filepath="$PROJECT_DIR$/../papp_model/.idea/papp_model.iml" />
       <module fileurl="file://$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" filepath="$PROJECT_DIR$/../papp_noop/.idea/papp_noop.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_agent/.idea/peek_agent.iml" filepath="$PROJECT_DIR$/../peek_agent/.idea/peek_agent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../peek_client_be/.idea/peek_client_be.iml" filepath="$PROJECT_DIR$/../peek_client_be/.idea/peek_client_be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../peek_client/.idea/peek_client_be.iml" filepath="$PROJECT_DIR$/../peek_client/.idea/peek_client_be.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_client_fe/.idea/peek_client_fe.iml" filepath="$PROJECT_DIR$/../peek_client_fe/.idea/peek_client_fe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../peek_license/.idea/peek_server.lic.iml" filepath="$PROJECT_DIR$/../peek_license/.idea/peek_server.lic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/peek_platform.iml" filepath="$PROJECT_DIR$/.idea/peek_platform.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" filepath="$PROJECT_DIR$/../peek_server.lic/.idea/peek_server.lic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../peek_server_be/.idea/peek_server_be.iml" filepath="$PROJECT_DIR$/../peek_server_be/.idea/peek_server_be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../peek_server/.idea/peek_server_be.iml" filepath="$PROJECT_DIR$/../peek_server/.idea/peek_server_be.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_server_fe/.idea/peek_server_fe.iml" filepath="$PROJECT_DIR$/../peek_server_fe/.idea/peek_server_fe.iml" />
       <module fileurl="file://$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" filepath="$PROJECT_DIR$/../peek_worker/.idea/peek_worker.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" filepath="$PROJECT_DIR$/../pof_api/.idea/pof_api.iml" />

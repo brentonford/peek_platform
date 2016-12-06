@@ -8,7 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="json-cfg" />
     <orderEntry type="module" module-name="old-peek_agent_pof" />
-    <orderEntry type="module" module-name="peek_client" />
     <orderEntry type="module" module-name="celery_py3_test" />
     <orderEntry type="module" module-name="peek_agent" />
     <orderEntry type="module" module-name="ng2-balloon-msg" />

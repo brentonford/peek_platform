@@ -1,12 +1,11 @@
 import logging
-import shutil
-
 import os
+import shutil
 import unittest
 
 import peek_platform
 from jsoncfg.functions import config_to_json_str
-from peek_platform.file_config.PeekFileConfigBase import PeekFileConfigBase
+from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 from peek_platform.file_config.PeekFileConfigPeekServerClientMixin import \
     PeekFileConfigPeekServerClientMixin
 from peek_platform.file_config.PeekFileConfigPlatformMixin import \
@@ -17,7 +16,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 
-class TestFileConfig(PeekFileConfigBase,
+class TestFileConfig(PeekFileConfigABC,
                      PeekFileConfigPeekServerClientMixin,
                      PeekFileConfigPlatformMixin):
     pass

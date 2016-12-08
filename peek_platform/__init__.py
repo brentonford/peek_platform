@@ -1,7 +1,9 @@
-
+from . import WindowsPatch
 
 class PeekPlatformConfig:
     """ Peek Platform Config
+
+    This is really a GLOBAL pettern, It should be replaced at some stage.
 
     This class is populated with data when the peek processes start.
     This is required so that peek_platform common code can access the other parts
@@ -22,5 +24,5 @@ class PeekPlatformConfig:
     # The inherited class of PeekSwInstallManagerBase
     peekSwInstallManager = None
 
-    # The instance of the PappLoaderBase
+    # The instance of the PappLoaderABC
     pappLoader = None

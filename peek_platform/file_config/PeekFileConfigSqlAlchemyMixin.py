@@ -1,6 +1,8 @@
 import logging
+from abc import ABCMeta
 
 from jsoncfg.value_mappers import require_string, require_dict
+from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 
 logger = logging.getLogger(__name__)
 

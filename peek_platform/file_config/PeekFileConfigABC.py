@@ -16,6 +16,7 @@
 import logging
 
 import os
+from abc import ABCMeta
 
 import jsoncfg
 from jsoncfg.functions import save_config, ConfigWithWrapper
@@ -23,7 +24,7 @@ from jsoncfg.functions import save_config, ConfigWithWrapper
 logger = logging.getLogger(__name__)
 
 
-class PeekFileConfigBase(object):
+class PeekFileConfigABC(metaclass=ABCMeta):
     """
     This class creates a basic agent configuration
     """
@@ -37,7 +38,7 @@ class PeekFileConfigBase(object):
         if cls.__instance is not None:
             return cls.__instance
 
-        self = super(PeekFileConfigBase, cls).__new__(cls)
+        self = super(PeekFileConfigABC, cls).__new__(cls)
         cls.__instance = self
         return self
 

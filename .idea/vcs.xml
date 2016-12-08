@@ -13,6 +13,7 @@
     <mapping directory="$PROJECT_DIR$/../peek_agent" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_agent" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../peek_client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_client_fe" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../peek_license" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />

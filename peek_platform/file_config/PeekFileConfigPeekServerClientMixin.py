@@ -1,7 +1,9 @@
+from abc import ABCMeta
+
 from jsoncfg.value_mappers import require_string, require_integer
 
 
-class PeekFileConfigPeekServerClientMixin:
+class PeekFileConfigPeekServerClientMixin(metaclass=ABCMeta):
 
     ### SERVER SECTION ###
     @property

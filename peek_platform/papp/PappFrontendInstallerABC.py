@@ -89,6 +89,18 @@ class PappFrontendInstallerABC(object):
         assert platformService in ("server", "client")
         self._platformService = platformService
 
+    @property
+    def pappFrontendTitleUrls(self):
+        """ Papp Admin Name Urls
+
+        @:returns a list of tuples (pappName, pappTitle, pappUrl)
+        """
+        data = []
+        for pappName, papp in list(self._loadedPapps.items()):
+            data.append((pappName, papp.title, "/%s" % pappName))
+
+        return data
+
     def buildFrontend(self) -> None:
 
         from peek_platform.papp.PappLoaderABC import PappLoaderABC

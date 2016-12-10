@@ -1,18 +1,18 @@
-import imp
 import logging
-import sys
-
 import os
-from abc import ABCMeta, abstractmethod
+import sys
+from abc import ABCMeta, abstractmethod, abstractproperty
 from collections import defaultdict
+from importlib.util import find_spec
+from typing import Type
 
+from jsoncfg.value_mappers import require_string, require_array
+from papp_base.PappCommonEntryHookABC import PappCommonEntryHookABC
 from papp_base.PappPackageFileConfig import PappPackageFileConfig
+from peek_platform import PeekPlatformConfig
+from vortex.PayloadIO import PayloadIO
 from vortex.Tuple import removeTuplesForTupleNames, registeredTupleNames, \
     tupleForTupleName
-
-from vortex.PayloadIO import PayloadIO
-
-from peek_platform import PeekPlatformConfig
 
 logger = logging.getLogger(__name__)
 
@@ -34,27 +34,76 @@ class PappLoaderABC(metaclass=ABCMeta):
         self._vortexEndpointInstancesByPappName = defaultdict(list)
         self._vortexTupleNamesByPappName = defaultdict(list)
 
+    @abstractproperty
+    def _entryHookFuncName(self) -> str:
+        """ Entry Hook Func Name.
+        Protected property
+        :return: EG  "peekServerEntryHook"
+
+        """
+
+    @abstractproperty
+    def _entryHookClassType(self):
+        """ Entry Hook Class Type
+        Protected property
+        :return: EG  PappServerEntryHookABC
+
+        """
+
+    @abstractproperty
+    def _platformServiceNames(self) -> [str]:
+        """ Platform Service Name
+        Protected property
+        :return: one or more of "server", "worker", "agent", "client", "storage"
+
+        """
+
     def loadPapp(self, pappName):
         try:
+            self.unloadPapp(pappName)
+
             # Make note of the initial registrations for this papp
             endpointInstancesBefore = set(PayloadIO().endpoints)
             tupleNamesBefore = set(registeredTupleNames())
 
-            # Get the location of the PAPP package
-            pappRootDir = PeekPlatformConfig.config.pappDir(pappName)
-            if not os.path.isdir(pappRootDir): raise NotADirectoryError(pappRootDir)
+            modSpec = find_spec(pappName)
+            if not modSpec:
+                raise Exception("Can not load Peek App package %s", pappName)
 
-            # Load up the entry hook details from the papp_package.json
+            PappPackage = modSpec.loader.load_module()
+            pappRootDir = os.path.dirname(PappPackage.__file__)
+
+            # Load up the papp package info
             pappPackageJson = PappPackageFileConfig(pappRootDir)
+            pappVersion = pappPackageJson.config.papp.version(require_string)
+            pappRequiresService = pappPackageJson.config.requiresServices(require_array)
 
-            # Change the working dir to the PAPP directory
-            oldPwd = os.curdir
-            os.chdir(pappRootDir)
+            # Make sure the service is required
+            # Storage and Server are loaded at the same time, hence the intersection
+            if not set(pappRequiresService) & set(self._platformServiceNames):
+                logger.debug("%s does not require %s, Skipping load",
+                             pappName, self._platformServiceNames)
+                return
 
-            self._loadPappThrows(pappName, pappRootDir)
+            # Get the entry hook class from the package
+            entryHookGetter = getattr(PappPackage, str(self._entryHookFuncName))
+            EntryHookClass = entryHookGetter() if entryHookGetter else None
 
-            # Change back to the old dir
-            os.chdir(oldPwd)
+            if not EntryHookClass:
+                logger.warning(
+                    "Skipping load for %s, %s.%s is missing or returned None",
+                    pappName, pappName, self._entryHookFuncName)
+                return
+
+            if not issubclass(EntryHookClass, self._entryHookClassType):
+                raise Exception("%s load error, Excpected %s, received %s"
+                                % (pappName, self._entryHookClassType, EntryHookClass))
+
+            ### Perform the loading of the papp
+            self._loadPappThrows(pappName, EntryHookClass, pappRootDir)
+
+            # Make sure the version we have recorded is correct
+            PeekPlatformConfig.config.setPappVersion(pappName, pappVersion)
 
             # Make note of the final registrations for this papp
             self._vortexEndpointInstancesByPappName[pappName] = list(
@@ -70,10 +119,21 @@ class PappLoaderABC(metaclass=ABCMeta):
             logger.exception(e)
 
     @abstractmethod
-    def _loadPappThrows(self, pappName:str):
-        pass
+    def _loadPappThrows(self, pappName: str, EntryHookClass: Type[PappCommonEntryHookABC],
+                        pappRootDir: str) -> None:
+        """ Load Papp (May throw Exception)
 
-    def unloadPapp(self, pappName:str):
+        This method is called to perform the load of the module.
+
+        :param pappName: The name of the Peek App, eg "papp_noop"
+        :param PappPackage: A reference to the main papp package, eg "import papp_noop"
+        this parameter would be papp_noop.
+        :param pappRootDir: The directory of the papp package,
+         EG dirname(papp_noop.__file__)
+
+        """
+
+    def unloadPapp(self, pappName: str):
         oldLoadedPapp = self._loadedPapps.get(pappName)
 
         if not oldLoadedPapp:
@@ -123,7 +183,7 @@ class PappLoaderABC(metaclass=ABCMeta):
 
         except Exception as e:
             logger.error("An exception occured while unloading papp %s,"
-                          " unloading continues" % pappName)
+                         " unloading continues" % pappName)
             logger.exception(e)
 
         # Unload the packages

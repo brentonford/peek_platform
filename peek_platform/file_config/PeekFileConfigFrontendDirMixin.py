@@ -1,9 +1,7 @@
 import logging
 import os
-from abc import ABCMeta
 
 from jsoncfg.value_mappers import require_string
-from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 
 logger = logging.getLogger(__name__)
 
@@ -50,7 +48,7 @@ class PeekFileConfigFrontendDirMixin:
                 " be kicked off from")
             dir = c.frontend.srcDir(default, require_string)
 
-        if not os.exists(dir):
+        if not os.path.isdir(dir):
             logger.error("Frontend SRC folder does not yest exist : %s", dir)
 
         return dir

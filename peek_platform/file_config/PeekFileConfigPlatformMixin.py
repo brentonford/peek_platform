@@ -2,6 +2,7 @@ import logging
 
 import os
 from abc import ABCMeta
+from typing import Optional
 
 from jsoncfg.value_mappers import require_string, RequireType, require_list
 from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
@@ -54,17 +55,12 @@ class PeekFileConfigPlatformMixin:
         with self._cfg as c:
             return self._chkDir(c.papp.softwarePath(default, require_string))
 
-    # --- Papp Install Dir
-    def pappDir(self, pappName):
-        with self._cfg as c:
-            return c.papp[pappName].dir(None, RequireType(type(None), str))
-
-    def setPappDir(self, pappName, dir):
-        with self._cfg as c:
-            c.papp[pappName].dir = dir
-
     # --- Papp Software Version
     def pappVersion(self, pappName):
+        """ Papp Version
+
+        The last version that we know about
+        """
         with self._cfg as c:
             return c.papp[pappName].version(None, RequireType(type(None), str))
 

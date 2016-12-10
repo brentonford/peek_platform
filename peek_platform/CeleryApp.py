@@ -24,7 +24,7 @@ def configureCeleryApp(app):
     )
 
 
-def start(*args):
+def start():
     configureCeleryApp(celeryApp)
 
     pappIncludes = PeekPlatformConfig.pappLoader.celeryAppIncludes
@@ -37,7 +37,5 @@ def start(*args):
     # Create and set this attribute so that the CeleryDbConn can use it
     # Worker is passed as sender to @worker_init.connect
     celeryApp.peekDbConnectString = PeekPlatformConfig.config.dbConnectString
-    # Ingore this we need different pool settings for workers, they are one per proc
-    # peekWorkerApp.xxx = peekWorkerConfig.sqlaEngineArgs
 
     celeryApp.worker_main()

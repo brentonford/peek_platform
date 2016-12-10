@@ -3,8 +3,6 @@ import os
 import pty
 import subprocess
 from collections import namedtuple
-
-import sys
 from subprocess import PIPE
 
 from pytmpdir.DirectoryTest import isWindows
@@ -24,6 +22,7 @@ PappDetail = namedtuple("PappDetail",
 
 isWindows
 
+
 class _PtyOutParser:
     """ PTY Out Parser
 
@@ -38,9 +37,10 @@ class _PtyOutParser:
     the summary at the end of the webpack build.
 
     """
+
     def __init__(self):
         self.data = ''
-        self.startLogging = False # Ignore all the stuff before the final summary
+        self.startLogging = False  # Ignore all the stuff before the final summary
 
     def read(self, fd):
         data = os.read(fd, 1024)
@@ -71,6 +71,7 @@ class _PtyOutParser:
 
         logger.debug(line)
 
+
 class PappFrontendInstallerABC(object):
     """ Peek App Frontend Installer Mixin
 
@@ -96,8 +97,8 @@ class PappFrontendInstallerABC(object):
         @:returns a list of tuples (pappName, pappTitle, pappUrl)
         """
         data = []
-        for pappName, papp in list(self._loadedPapps.items()):
-            data.append((pappName, papp.title, "/%s" % pappName))
+        for papp in list(self._loadedPapps.values()):
+            data.append((papp.name, papp.title, "/%s" % papp.name))
 
         return data
 
@@ -118,6 +119,8 @@ class PappFrontendInstallerABC(object):
 
         from peek_platform import PeekPlatformConfig
         feSrcDir = PeekPlatformConfig.config.feSrcDir
+
+        self._hashFileName = os.path.join(os.path.dirname(feSrcDir), ".lastHash")
 
         pappDetails = self._loadPappConfigs()
 
@@ -213,9 +216,9 @@ class PappFrontendInstallerABC(object):
 
         """
         ignore = (".git", ".idea", "dist")
-        ignore = ["'%s'" % i for i in ignore] # Surround with quotes
-        grep = "grep -v -e %s " % ' -e '.join(ignore) # Xreate the grep command
-        cmd = "find -L %s -ls | %s" % (feSrcDir, grep)
+        ignore = ["'%s'" % i for i in ignore]  # Surround with quotes
+        grep = "grep -v -e %s " % ' -e '.join(ignore)  # Xreate the grep command
+        cmd = "find -L %s -type f -ls | %s" % (feSrcDir, grep)
         commandComplete = subprocess.run(cmd,
                                          executable=PeekPlatformConfig.config.bashLocation,
                                          stdout=PIPE, stderr=PIPE, shell=True)
@@ -229,19 +232,30 @@ class PappFrontendInstallerABC(object):
 
         logger.debug("Frontend compile diff check ran ok")
 
-        lastHash = commandComplete.stdout
-        hashFileName = os.path.join(feSrcDir, ".lastHash")
+        newHash = commandComplete.stdout
+        fileHash = ""
 
-        if os.path.isfile(hashFileName):
-            with open(hashFileName, 'rb') as f:
-                if f.read() == lastHash:
-                    return False
+        if os.path.isfile(self._hashFileName):
+            with open(self._hashFileName, 'rb') as f:
+                fileHash = f.read()
 
-        with open(hashFileName, 'wb') as f:
-            f.write(lastHash)
+        fileHashLines = set(fileHash.splitlines())
+        newHashLines = set(newHash.splitlines())
+        changes = False
 
-        return True
+        for line in fileHashLines - newHashLines:
+            changes = True
+            logger.debug("Removed %s" % line)
 
+        for line in newHashLines - fileHashLines:
+            changes = True
+            logger.debug("Added %s" % line)
+
+        if changes:
+            with open(self._hashFileName, 'wb') as f:
+                f.write(newHash)
+
+        return changes
 
     def _compileFrontend(self, feSrcDir: str) -> None:
         """ Compile the frontend
@@ -261,7 +275,7 @@ class PappFrontendInstallerABC(object):
                                parser.read)
 
         if returnCode:
+            os.remove(self._hashFileName)
             raise Exception("The angular frontend failed to build.")
         else:
             logger.info("Frontend distribution rebuild complete.")
-

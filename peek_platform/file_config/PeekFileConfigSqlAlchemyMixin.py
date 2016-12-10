@@ -12,10 +12,10 @@ class PeekFileConfigSqlAlchemyMixin:
     def dbConnectString(self):
         default = 'postgresql://peek:PASSWORD@localhost/peek'
         with self._cfg as c:
-            return c.sqlalchemy.url(default, require_string)
+            return c.sqlalchemy.connectUrl(default, require_string)
 
     @property
-    def sqlaEngineArgs(self):
+    def dbEngineArgs(self):
         default = {
             'pool_size': 20,  # Number of connections to keep open
             'max_overflow': 50,  # Number that the pool size can exceed when required
@@ -23,4 +23,4 @@ class PeekFileConfigSqlAlchemyMixin:
             'pool_recycle': 600  # Reconnect?? after 10 minutes
         }
         with self._cfg as c:
-            return c.sqlalchemy.engin_args(default, require_dict)
+            return c.sqlalchemy.engineArgs(default, require_dict)

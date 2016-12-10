@@ -1,8 +1,6 @@
 import logging
 import os
 
-from jsoncfg.value_mappers import require_string
-
 logger = logging.getLogger(__name__)
 
 
@@ -20,12 +18,12 @@ class PeekFileConfigFrontendDirMixin:
         """
         # EG "/home/peek/project/peek_client_fe/dist"
         default = os.path.join(self._frontendProjectDir, 'dist')
-        with self._cfg as c:
-            c.frontend.distDirComment = (
-                "The directory where the peek_????_fe project"
-                " will generate it's build files")
-            dir = c.frontend.distDir(default, require_string)
-
+        # with self._cfg as c:
+        #     c.frontend.distDirComment = (
+        #         "The directory where the peek_????_fe project"
+        #         " will generate it's build files")
+        #     dir = c.frontend.distDir(default, require_string)
+        dir = default
         if not os.path.exists(dir):
             logger.info("Frontend DIST folder does not yest exist : %s", dir)
 
@@ -40,13 +38,14 @@ class PeekFileConfigFrontendDirMixin:
         """
         # EG "/home/peek/project/peek_client_fe/src"
         default = os.path.join(self._frontendProjectDir, 'src')
-        with self._cfg as c:
-            c.frontend.srcDirComment = (
-                "The directory where the peek_????_fe project"
-                " src directory is located.\n"
-                "This is where the papp dirs will be linked into and where the build will"
-                " be kicked off from")
-            dir = c.frontend.srcDir(default, require_string)
+        # with self._cfg as c:
+        #     c.frontend.srcDirComment = (
+        #         "The directory where the peek_????_fe project"
+        #         " src directory is located.\n"
+        #         "This is where the papp dirs will be linked into and where the build will"
+        #         " be kicked off from")
+        #     dir = c.frontend.srcDir(default, require_string)
+        dir = default
 
         if not os.path.isdir(dir):
             logger.error("Frontend SRC folder does not yest exist : %s", dir)

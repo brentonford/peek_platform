@@ -47,22 +47,20 @@ requirements = [
     "pytmpdir >= 0.1.0",  # A temporary directoy, usefull for extracting archives to
     "txhttputil >= 0.1.6",  # Utility class for http requests
     "vortexpy >= 0.1.4",  # Data serialisation and transport layer, observable based
-    "json-cfg",  # DEPENDENCY LINK BELOW
+    "json-cfg-rw",
     "kwonly-args",  # Required for json-cfg
-    "txsuds-py3",  # DEPENDENCY LINK BELOW
+    "txsuds-py3",
 
     # Peek platform dependencies, all must match
-    "papp_base", ##==%s" % package_version,
+    "papp_base",  ##==%s" % package_version,
 ]
 
 # Packages that are presently installed from a git repo
+# See http://stackoverflow.com/questions/17366784/setuptools-unable-to-use-link-from-dependency-links/17442663#17442663
 dependency_links = [
     # Celery packages
     # "git+https://github.com/celery/py-amqp#egg=amqp",
 
-    # Synerty packages
-    "https://github.com/Synerty/json-cfg/tarball/master#egg=json-cfg-0.5.0",  # The file config utility
-    "https://github.com/Synerty/txsuds-py3/tarball/master#egg=txsuds-py3-0.0.0",  # The soap client
 ]
 
 dev_requirements = [
@@ -77,6 +75,7 @@ setup(
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     install_requires=requirements,
     dependency_links=dependency_links,
+    process_dependency_links=True,
     version=package_version,
     description='Peek Platform Common Code',
     author='Synerty',

@@ -28,9 +28,6 @@ class PappLoaderABC(metaclass=ABCMeta):
     def __init__(self):
         self._loadedPapps = {}
 
-        from peek_server.PeekServerConfig import peekServerConfig
-        self._pappPath = peekServerConfig.pappSoftwarePath
-
         self._vortexEndpointInstancesByPappName = defaultdict(list)
         self._vortexTupleNamesByPappName = defaultdict(list)
 
@@ -138,10 +135,6 @@ class PappLoaderABC(metaclass=ABCMeta):
 
         if not oldLoadedPapp:
             return
-
-        # Remove the Papp resource tree
-        from peek_server.backend.SiteRootResource import root as serverRootResource
-        serverRootResource.deleteChild(pappName.encode())
 
         # Remove the registered endpoints
         for endpoint in self._vortexEndpointInstancesByPappName[pappName]:

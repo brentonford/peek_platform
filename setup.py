@@ -5,7 +5,7 @@ from distutils.core import setup
 from setuptools import find_packages
 
 package_name = "peek_platform"
-package_version = "0.0.0"
+package_version = '0.0.3'
 
 egg_info = "%s.egg-info" % package_name
 if os.path.isdir(egg_info):

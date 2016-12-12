@@ -24,8 +24,8 @@ from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
 
 from peek_platform import PeekPlatformConfig
-from peek_platform.file_config.PeekFileConfigPlatformMixin import \
-    PeekFileConfigPlatformMixin
+from peek_platform.file_config.PeekFileConfigPlatformABC import \
+    PeekFileConfigPlatformABC
 from txhttputil.downloader.HttpFileDownloader import HttpFileDownloader
 from vortex.Payload import deferToThreadWrap
 
@@ -66,7 +66,7 @@ class PappSwInstallManagerBase:
     @deferToThreadWrap
     def installAndReload(self, pappName, targetVersion, fullTarPath):
 
-        assert isinstance(PeekPlatformConfig.config, PeekFileConfigPlatformMixin)
+        assert isinstance(PeekPlatformConfig.config, PeekFileConfigPlatformABC)
         pappVersionJsonFileName = "papp_version.json"
 
         if not tarfile.is_tarfile(fullTarPath):

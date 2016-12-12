@@ -1,7 +1,7 @@
 import logging
 
 import os
-from abc import ABCMeta
+from abc import ABCMeta, abstractproperty
 from typing import Optional
 
 from jsoncfg.value_mappers import require_string, RequireType, require_list
@@ -10,7 +10,7 @@ from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 logger = logging.getLogger(__name__)
 
 
-class PeekFileConfigPlatformMixin:
+class PeekFileConfigPlatformABC(metaclass=ABCMeta):
     # --- Platform Logging
 
     @property
@@ -20,7 +20,7 @@ class PeekFileConfigPlatformMixin:
             if lvl in logging._nameToLevel:
                 return lvl
 
-            logger.warn("Logging level %s is not valid, defauling to INFO", lvl)
+            logger.warning("Logging level %s is not valid, defauling to INFO", lvl)
             return "INFO"
 
     # --- Platform Tmp Path
@@ -38,15 +38,12 @@ class PeekFileConfigPlatformMixin:
             return self._chkDir(c.platform.softwarePath(default, require_string))
 
     # --- Platform Version
-    @property
+    @abstractproperty
     def platformVersion(self):
-        with self._cfg as c:
-            return c.platform.version('0.0.0', require_string)
+        """ Platform Version
 
-    @platformVersion.setter
-    def platformVersion(self, value):
-        with self._cfg as c:
-            c.platform.version = value
+        :return: The version of this service in the platform.
+        """
 
     # --- Papp Software Path
     @property

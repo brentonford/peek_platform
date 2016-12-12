@@ -8,8 +8,8 @@ from jsoncfg.functions import config_to_json_str
 from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 from peek_platform.file_config.PeekFileConfigPeekServerClientMixin import \
     PeekFileConfigPeekServerClientMixin
-from peek_platform.file_config.PeekFileConfigPlatformMixin import \
-    PeekFileConfigPlatformMixin
+from peek_platform.file_config.PeekFileConfigPlatformABC import \
+    PeekFileConfigPlatformABC
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -18,8 +18,10 @@ logger = logging.getLogger(__name__)
 
 class TestFileConfig(PeekFileConfigABC,
                      PeekFileConfigPeekServerClientMixin,
-                     PeekFileConfigPlatformMixin):
-    pass
+                     PeekFileConfigPlatformABC):
+    @property
+    def platformVersion(self):
+        return "0.0.0"
 
 
 class PeekFileConfigTest(unittest.TestCase):

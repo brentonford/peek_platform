@@ -261,6 +261,9 @@ class PappFrontendInstallerABC(object):
         """ Compile the frontend
 
         this runs `ng build`
+
+        We need to use a pty otherwise webpack doesn't run.
+
         """
 
         if not self._recompileRequiredCheck(feSrcDir):

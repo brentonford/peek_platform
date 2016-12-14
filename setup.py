@@ -13,7 +13,7 @@ if os.path.isdir(egg_info):
 
 requirements = [
     # packages used for the platform to test and upgrade it's self
-    "pip >= 9.0.0",
+    # "pip >= 9.0.0", PIP never installs as a package, we can't have it as a dependency
     "virtualenv >= 15.1.0",
 
     # networking and async framework. Peek is based on Twisted.

@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # The filter we listen on
 agentEchoFilt = {
-    'papp' : 'peek_platform',
+    'plugin' : 'peek_platform',
     'key': "peek_platform.echo"
 }  # LISTEN / SEND
 

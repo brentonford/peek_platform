@@ -20,11 +20,11 @@ class PeekPlatformConfig:
     # The config accessor class
     config = None
 
-    # The inherited class of PappSwInstallManagerBase
-    pappSwInstallManager = None
+    # The inherited class of PluginSwInstallManagerBase
+    pluginSwInstallManager = None
 
     # The inherited class of PeekSwInstallManagerBase
     peekSwInstallManager = None
 
-    # The instance of the PappLoaderABC
-    pappLoader = None
+    # The instance of the PluginLoaderABC
+    pluginLoader = None

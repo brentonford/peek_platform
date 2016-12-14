@@ -42,7 +42,7 @@ class PeekFileConfigFrontendDirMixin:
         #     c.frontend.srcDirComment = (
         #         "The directory where the peek_????_fe project"
         #         " src directory is located.\n"
-        #         "This is where the papp dirs will be linked into and where the build will"
+        #         "This is where the plugin dirs will be linked into and where the build will"
         #         " be kicked off from")
         #     dir = c.frontend.srcDir(default, require_string)
         dir = default

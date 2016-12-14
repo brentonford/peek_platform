@@ -8,8 +8,8 @@ from jsoncfg.functions import config_to_json_str
 from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 from peek_platform.file_config.PeekFileConfigPeekServerClientMixin import \
     PeekFileConfigPeekServerClientMixin
-from peek_platform.file_config.PeekFileConfigPlatformABC import \
-    PeekFileConfigPlatformABC
+from peek_platform.file_config.PeekFileConfigPlatformMixin import \
+    PeekFileConfigPlatformMixin
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -18,10 +18,8 @@ logger = logging.getLogger(__name__)
 
 class TestFileConfig(PeekFileConfigABC,
                      PeekFileConfigPeekServerClientMixin,
-                     PeekFileConfigPlatformABC):
-    @property
-    def platformVersion(self):
-        return "0.0.0"
+                     PeekFileConfigPlatformMixin):
+    pass
 
 
 class PeekFileConfigTest(unittest.TestCase):
@@ -89,24 +87,24 @@ class PeekFileConfigTest(unittest.TestCase):
         self.assertEqual(bas._cfg.op1.thingy(), twoFiveSix)
 
     def testPlatformDetails(self):
-        pappName = 'papp_noop'
+        pluginName = 'plugin_noop'
 
         bas = TestFileConfig()
 
         # Defaults
-        logger.info('papp.papp_noop.version = %s', bas.pappVersion(pappName))
+        logger.info('plugin.plugin_noop.version = %s', bas.pluginVersion(pluginName))
         logger.info('platformVersion = %s', bas.platformVersion)
 
         bas.platformVersion = '4.4.4'
-        bas.setPappVersion(pappName, '2.5.6')
+        bas.setPluginVersion(pluginName, '2.5.6')
 
         with open(self.CONFIG_FILE_PATH, 'r') as fobj:
             logger.info(fobj.read())
 
         TestFileConfig._PeekFileConfigBase__instance = None
 
-        logger.info('papp.papp_noop.version = %s', bas.pappVersion(pappName))
+        logger.info('plugin.plugin_noop.version = %s', bas.pluginVersion(pluginName))
         logger.info('platformVersion = %s', bas.platformVersion)
 
         self.assertEqual(bas.platformVersion, '4.4.4')
-        self.assertEqual(bas.pappVersion(pappName), '2.5.6')
+        self.assertEqual(bas.pluginVersion(pluginName), '2.5.6')

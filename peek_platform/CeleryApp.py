@@ -27,11 +27,11 @@ def configureCeleryApp(app):
 def start():
     configureCeleryApp(celeryApp)
 
-    pappIncludes = PeekPlatformConfig.pappLoader.celeryAppIncludes
+    pluginIncludes = PeekPlatformConfig.pluginLoader.celeryAppIncludes
 
     celeryApp.conf.update(
         # DbConnection MUST BE FIRST, so that it creates a new connection
-        CELERY_INCLUDE=['papp_base.worker.CeleryDbConnInit'] + pappIncludes,
+        CELERY_INCLUDE=['peek_plugin_base.worker.CeleryDbConnInit'] + pluginIncludes,
     )
 
     # Create and set this attribute so that the CeleryDbConn can use it

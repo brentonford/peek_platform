@@ -35,6 +35,9 @@ requirements = [
     "python-dateutil >= 2.6.0",
     "Pygments >= 2.0.1",  # Generate HTML for code that is syntax styled
 
+    # Licensing
+    "pycrypto",
+
     # Celery packages
     "flower",
     # "amqp >= 1.4.9",  # DEPENDENCY LINK BELOW
@@ -56,7 +59,7 @@ requirements = [
     "txsuds-py3",
 
     # Peek platform dependencies, all must match
-    "papp_base",  ##==%s" % package_version,
+    "peek_plugin_base",  ##==%s" % package_version,
 ]
 
 # Packages that are presently installed from a git repo

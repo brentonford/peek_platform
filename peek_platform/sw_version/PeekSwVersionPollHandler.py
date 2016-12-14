@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 # The filter we listen on
 peekPlatformVersionFilt = {
-    'papp': 'peak_platform',
+    'plugin': 'peak_platform',
     'key': "peek_platform.version.check"}  # LISTEN / SEND
 
 
@@ -60,16 +60,16 @@ class PeekSwVersionPollHandler(object):
                     break
 
             else:
-                installedPappVer = PeekPlatformConfig.config.pappVersion(
+                installedPluginVer = PeekPlatformConfig.config.pluginVersion(
                     swVersionInfo.name)
 
-                if installedPappVer != swVersionInfo.version:
+                if installedPluginVer != swVersionInfo.version:
                     logger.info("Recieved %s update new version is %s, we're %s",
                                 swVersionInfo.name,
                                 swVersionInfo.version,
-                                installedPappVer)
+                                installedPluginVer)
 
-                    d = PeekPlatformConfig.pappSwInstallManager.update(
+                    d = PeekPlatformConfig.pluginSwInstallManager.update(
                         swVersionInfo.name, swVersionInfo.version)
                     deferredList.append(d)
 

@@ -8,7 +8,7 @@ from subprocess import PIPE
 from pytmpdir.DirectoryTest import isWindows
 
 from jsoncfg.value_mappers import require_string
-from papp_base.PappPackageFileConfig import PappPackageFileConfig
+from peek_plugin_base.PluginPackageFileConfig import PluginPackageFileConfig
 from peek_platform import PeekPlatformConfig
 from peek_platform.file_config.PeekFileConfigFrontendDirMixin import \
     PeekFileConfigFrontendDirMixin
@@ -16,8 +16,8 @@ from peek_platform.file_config.PeekFileConfigOsMixin import PeekFileConfigOsMixi
 
 logger = logging.getLogger(__name__)
 
-PappDetail = namedtuple("PappDetail",
-                        ["pappRootDir", "pappName", "angularFrontendDir",
+PluginDetail = namedtuple("PluginDetail",
+                        ["pluginRootDir", "pluginName", "angularFrontendDir",
                          "angularMainModule"])
 
 isWindows
@@ -72,7 +72,7 @@ class _PtyOutParser:
         logger.debug(line)
 
 
-class PappFrontendInstallerABC(object):
+class PluginFrontendInstallerABC(object):
     """ Peek App Frontend Installer Mixin
 
     This class is used for the client and server.
@@ -91,21 +91,21 @@ class PappFrontendInstallerABC(object):
         self._platformService = platformService
 
     @property
-    def pappFrontendTitleUrls(self):
-        """ Papp Admin Name Urls
+    def pluginFrontendTitleUrls(self):
+        """ Plugin Admin Name Urls
 
-        @:returns a list of tuples (pappName, pappTitle, pappUrl)
+        @:returns a list of tuples (pluginName, pluginTitle, pluginUrl)
         """
         data = []
-        for papp in list(self._loadedPapps.values()):
-            data.append((papp.name, papp.title, "/%s" % papp.name))
+        for plugin in list(self._loadedPlugins.values()):
+            data.append((plugin.name, plugin.title, "/%s" % plugin.name))
 
         return data
 
     def buildFrontend(self) -> None:
 
-        from peek_platform.papp.PappLoaderABC import PappLoaderABC
-        assert isinstance(self, PappLoaderABC)
+        from peek_platform.plugin.PluginLoaderABC import PluginLoaderABC
+        assert isinstance(self, PluginLoaderABC)
 
         from peek_platform import PeekPlatformConfig
         if not isinstance(PeekPlatformConfig.config, PeekFileConfigFrontendDirMixin):
@@ -122,85 +122,85 @@ class PappFrontendInstallerABC(object):
 
         self._hashFileName = os.path.join(os.path.dirname(feSrcDir), ".lastHash")
 
-        pappDetails = self._loadPappConfigs()
+        pluginDetails = self._loadPluginConfigs()
 
-        self._writePappRouteLazyLoads(feSrcDir, pappDetails)
-        self._relinkPappDirs(feSrcDir, pappDetails)
+        self._writePluginRouteLazyLoads(feSrcDir, pluginDetails)
+        self._relinkPluginDirs(feSrcDir, pluginDetails)
         self._compileFrontend(feSrcDir)
 
-    def _loadPappConfigs(self) -> [PappDetail]:
-        pappDetails = []
+    def _loadPluginConfigs(self) -> [PluginDetail]:
+        pluginDetails = []
 
-        for papp in self._loadedPapps.values():
-            assert isinstance(papp.packageCfg, PappPackageFileConfig)
-            pappPackageConfig = papp.packageCfg.config
+        for plugin in self._loadedPlugins.values():
+            assert isinstance(plugin.packageCfg, PluginPackageFileConfig)
+            pluginPackageConfig = plugin.packageCfg.config
 
-            angularFrontendDir = (pappPackageConfig[self._platformService]
+            angularFrontendDir = (pluginPackageConfig[self._platformService]
                                   .angularFrontendDir(require_string))
 
-            angularMainModule = (pappPackageConfig[self._platformService]
+            angularMainModule = (pluginPackageConfig[self._platformService]
                                  .angularMainModule(require_string))
 
-            pappDetails.append(
-                PappDetail(pappRootDir=papp.rootDir,
-                           pappName=papp.name,
+            pluginDetails.append(
+                PluginDetail(pluginRootDir=plugin.rootDir,
+                           pluginName=plugin.name,
                            angularFrontendDir=angularFrontendDir,
                            angularMainModule=angularMainModule)
             )
 
-        return pappDetails
+        return pluginDetails
 
-    def _writePappRouteLazyLoads(self, feSrcDir: str, pappDetails: [PappDetail]) -> None:
+    def _writePluginRouteLazyLoads(self, feSrcDir: str, pluginDetails: [PluginDetail]) -> None:
         """
-        export const pappRoutes = [
+        export const pluginRoutes = [
             {
-                path: 'papp_noop',
-                loadChildren: "papp-noop/papp-noop.module#default"
+                path: 'plugin_noop',
+                loadChildren: "plugin-noop/plugin-noop.module#default"
             }
         ];
         """
         routes = []
-        for pappDetail in pappDetails:
+        for pluginDetail in pluginDetails:
             routes.append(
                 """
                 {
                     path: '%s',
                     loadChildren: "%s/%s#default"
                 }
-                """ % (pappDetail.pappName,
-                       pappDetail.pappName,
-                       pappDetail.angularMainModule))
+                """ % (pluginDetail.pluginName,
+                       pluginDetail.pluginName,
+                       pluginDetail.angularMainModule))
 
-        pappRoutesTs = os.path.join(feSrcDir, 'PappRoutes.ts')
+        pluginRoutesTs = os.path.join(feSrcDir, 'PluginRoutes.ts')
 
         routeData = "// This file is auto generated, the git version is blank and .gitignored\n"
-        routeData += "export const pappRoutes = [\n"
+        routeData += "export const pluginRoutes = [\n"
         routeData += ",\n".join(routes)
         routeData += "];\n"
 
         # Since writing the file again changes the date/time,
         # this messes with the self._recompileRequiredCheck
-        with open(pappRoutesTs, 'r') as f:
+        with open(pluginRoutesTs, 'r') as f:
             if routeData == f.read():
-                logger.debug("PappRoutes.ts is up to date")
+                logger.debug("PluginRoutes.ts is up to date")
                 return
 
-        logger.debug("Writing new PappRoutes.ts")
-        with open(pappRoutesTs, 'w') as f:
+        logger.debug("Writing new PluginRoutes.ts")
+        with open(pluginRoutesTs, 'w') as f:
             f.write(routeData)
 
-    def _relinkPappDirs(self, feSrcDir: str, pappDetails: [PappDetail]) -> None:
+    def _relinkPluginDirs(self, feSrcDir: str, pluginDetails: [PluginDetail]) -> None:
         # Remove all the old symlinks
 
         for item in os.listdir(feSrcDir):
             path = os.path.join(feSrcDir, item)
-            if item.startswith("papp_") and os.path.islink(path):
+            if item.startswith("plugin_") and os.path.islink(path):
                 os.remove(path)
 
-        for pappDetail in pappDetails:
-            srcDir = os.path.join(pappDetail.pappRootDir,
-                                  pappDetail.angularFrontendDir)
-            linkPath = os.path.join(feSrcDir, pappDetail.pappName)
+        for pluginDetail in pluginDetails:
+            srcDir = os.path.join(pluginDetail.pluginRootDir,
+                                  pluginDetail.angularFrontendDir)
+            linkPath = os.path.join(feSrcDir, pluginDetail.pluginName)
             os.symlink(srcDir, linkPath, target_is_directory=True)
 
     def _recompileRequiredCheck(self, feSrcDir: str) -> bool:

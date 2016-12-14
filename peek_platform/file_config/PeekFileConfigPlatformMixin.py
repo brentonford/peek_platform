@@ -10,7 +10,7 @@ from peek_platform.file_config.PeekFileConfigABC import PeekFileConfigABC
 logger = logging.getLogger(__name__)
 
 
-class PeekFileConfigPlatformABC(metaclass=ABCMeta):
+class PeekFileConfigPlatformMixin(metaclass=ABCMeta):
     # --- Platform Logging
 
     @property
@@ -38,40 +38,43 @@ class PeekFileConfigPlatformABC(metaclass=ABCMeta):
             return self._chkDir(c.platform.softwarePath(default, require_string))
 
     # --- Platform Version
-    @abstractproperty
-    def platformVersion(self):
-        """ Platform Version
-
-        :return: The version of this service in the platform.
-        """
-
-    # --- Papp Software Path
     @property
-    def pappSoftwarePath(self):
-        default = os.path.join(self._homePath, 'papp_software')
+    def platformVersion(self):
         with self._cfg as c:
-            return self._chkDir(c.papp.softwarePath(default, require_string))
+            return c.platform.version('0.0.0', require_string)
 
-    # --- Papp Software Version
-    def pappVersion(self, pappName):
-        """ Papp Version
+    @platformVersion.setter
+    def platformVersion(self, value):
+        with self._cfg as c:
+            c.platform.version = value
+
+    # --- Plugin Software Path
+    @property
+    def pluginSoftwarePath(self):
+        default = os.path.join(self._homePath, 'plugin_software')
+        with self._cfg as c:
+            return self._chkDir(c.plugin.softwarePath(default, require_string))
+
+    # --- Plugin Software Version
+    def pluginVersion(self, pluginName):
+        """ Plugin Version
 
         The last version that we know about
         """
         with self._cfg as c:
-            return c.papp[pappName].version(None, RequireType(type(None), str))
+            return c.plugin[pluginName].version(None, RequireType(type(None), str))
 
-    def setPappVersion(self, pappName, version):
+    def setPluginVersion(self, pluginName, version):
         with self._cfg as c:
-            c.papp[pappName].version = version
+            c.plugin[pluginName].version = version
 
-    # --- Papps Installed
+    # --- Plugins Installed
     @property
-    def pappsEnabled(self):
+    def pluginsEnabled(self):
         with self._cfg as c:
-            return c.papp.enabled([], require_list)
+            return c.plugin.enabled([], require_list)
 
-    @pappsEnabled.setter
-    def pappsEnabled(self, value):
+    @pluginsEnabled.setter
+    def pluginsEnabled(self, value):
         with self._cfg as c:
-            c.papp.enabled = value
+            c.plugin.enabled = value

@@ -41,10 +41,12 @@ class _PtyOutParser:
     def __init__(self):
         self.data = ''
         self.startLogging = False  # Ignore all the stuff before the final summary
+        self.allData = ''
 
     def read(self, fd):
         data = os.read(fd, 1024)
         self.data += data.decode()
+        self.allData += data.decode()
         self.splitData()
 
         # Silence all the output
@@ -279,6 +281,7 @@ class PluginFrontendInstallerABC(object):
 
         if returnCode:
             os.remove(self._hashFileName)
+            [logger.error(l) for l in parser.allData.splitlines()]
             raise Exception("The angular frontend failed to build.")
         else:
             logger.info("Frontend distribution rebuild complete.")

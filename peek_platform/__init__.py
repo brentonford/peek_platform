@@ -23,7 +23,7 @@ class PeekPlatformConfig:
     # The inherited class of PluginSwInstallManagerBase
     pluginSwInstallManager = None
 
-    # The inherited class of PeekSwInstallManagerBase
+    # The inherited class of PeekSwInstallManagerABC
     peekSwInstallManager = None
 
     # The instance of the PluginLoaderABC

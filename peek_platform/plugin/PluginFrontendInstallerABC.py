@@ -4,7 +4,10 @@ import subprocess
 from collections import namedtuple
 from subprocess import PIPE
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> isWindows variable wasn't doing anything.  It's been removed.
 from jsoncfg.value_mappers import require_string
 
 from peek_platform.WindowsPatch import isWindows

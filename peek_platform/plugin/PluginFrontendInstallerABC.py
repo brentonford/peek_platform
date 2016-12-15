@@ -1,6 +1,5 @@
 import logging
 import os
-import pty
 import subprocess
 from collections import namedtuple
 from subprocess import PIPE
@@ -259,6 +258,7 @@ class PluginFrontendInstallerABC(object):
 
         return changes
 
+
     def _compileFrontend(self, feSrcDir: str) -> None:
         """ Compile the frontend
 
@@ -273,6 +273,29 @@ class PluginFrontendInstallerABC(object):
             return
 
         logger.info("Rebuilding frontend distribution")
+
+        if isWindows:
+            self._compileFrontendWin(feSrcDir)
+        else:
+            self._compileFrontendPosix(feSrcDir)
+
+    def _compileFrontendWin(self, feSrcDir: str) -> None:
+        commandComplete = subprocess.run("(cd %s && ng build)" % feSrcDir,
+                                         executable=PeekPlatformConfig.config.bashLocation,
+                                         stdout=PIPE, stderr=PIPE, shell=True)
+
+        if commandComplete.returncode:
+            for line in commandComplete.stdout.splitlines():
+                logger.error(line)
+            for line in commandComplete.stderr.splitlines():
+                logger.error(line)
+            raise Exception("The angular frontend failed to build.")
+
+        logger.info("Frontend distribution rebuild complete.")
+        
+    def _compileFrontendPosix(self, feSrcDir: str) -> None:
+
+        import pty
 
         parser = _PtyOutParser()
 

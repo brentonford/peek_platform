@@ -4,7 +4,7 @@ from distutils.core import setup
 
 from setuptools import find_packages
 
-package_name = "peek_platform"
+package_name = "peek-platform"
 package_version = '0.0.6dev123456'
 
 egg_info = "%s.egg-info" % package_name
@@ -15,6 +15,7 @@ requirements = [
     # packages used for the platform to test and upgrade it's self
     "pip >= 9.0.0",
     "setuptools >= 18.0.0",
+    "virtualenv >= 15.1.0",
 
     # networking and async framework. Peek is based on Twisted.
     "Cython >= 0.21.1",
@@ -59,7 +60,7 @@ requirements = [
     "txsuds-py3",
 
     # Peek platform dependencies, all must match
-    "peek_plugin_base",  ##==%s" % package_version,
+    "peek-plugin-base",  ##==%s" % package_version,
 ]
 
 # Packages that are presently installed from a git repo

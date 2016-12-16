@@ -9,23 +9,23 @@
  *  Synerty Pty Ltd
  *
 """
+import sys
+
 import logging
 import os
 import subprocess
-import sys
 import tarfile
 import urllib.error
 import urllib.parse
 import urllib.request
 from abc import ABCMeta
-from subprocess import PIPE
-from typing import Optional
-
 from pytmpdir.Directory import Directory
-from twisted.internet import reactor, defer
+from subprocess import PIPE
+from twisted.internet import defer
 from twisted.internet.defer import inlineCallbacks
 from txhttputil.downloader.HttpFileDownloader import HttpFileDownloader
 from txhttputil.util.DeferUtil import deferToThreadWrap
+from typing import Optional, Generator
 
 logger = logging.getLogger(__name__)
 
@@ -43,9 +43,6 @@ class PlatformInstallException(Exception):
         self.message = message
         self.stdout = stdout
         self.stderr = stderr
-
-    def __str__(self):
-        return '\n'.join([self.message, self.stdout, self.stderr])
 
 
 class PeekSwInstallManagerABC(metaclass=ABCMeta):
@@ -77,45 +74,33 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
             'peek-release-%s.tar.gz' % version)
 
     @classmethod
-    def makePipArgs(cls, directory: Directory) -> [str]:
+    def makePipArgs(cls, directory: Directory): # No typing for return type yet
         """ Make PIP Args
 
         This method creates the install arg list for pip, it's used both when testing
         when a new platform release is uploaded and the install on each service.
 
         :param directory: The directory where the peek-release is extracted to
-        :return: The list of arguments to pass to pip
+        :return: A generator, each iterator returns The list of arguments to pass to pip
+        One iteration for each package
+        :rtype Generator of [str] for each yield
         """
-        requirement = "requirement"
-
         # Create an array of the package paths
 
         absFilePaths = [f.realPath
                         for f in directory.files
-                        if f.name.endswith(".tar.gz")]
+                        if f.name.endswith(".tar.gz") or f.name.endswith(".whl")]
 
-        # Get the requirements file if it exists.
-        requirementFile = directory.getFile(name=requirement)
-
-        # Create it if it doesn't exist
-        if not requirementFile:
-            requirementFile = directory.createFile(name=requirement)
-
-        # we might as well write it again, just to make sure.
-        with requirementFile.open(write=True) as f:
-            f.write('\n')
-            f.write('\n'.join(absFilePaths))
-            f.write('\n')
-
-        # Createand return the pip args
-        return ['install',  # Install the packages
-                '--force-reinstall',  # Reinstall if they already exist
-                '--no-cache-dir',  # Don't use the local pip cache
-                '--no-index',  # Work offline, don't use pypi
-                '--find-links', directory.path,
-                # Look in the directory for dependencies
-                '--requirement', requirementFile.realPath
-                ]
+        for absFilePath in absFilePaths:
+            # Create and return the pip args
+            yield ['install',  # Install the packages
+                   '--force-reinstall',  # Reinstall if they already exist
+                   '--no-cache-dir',  # Don't use the local pip cache
+                   '--no-index',  # Work offline, don't use pypi
+                   '--find-links', directory.path,
+                   # Look in the directory for dependencies
+                   absFilePath
+                   ]
 
     def notifyOfPlatformVersionUpdate(self, newVersion):
         self.installAndRestart(newVersion)
@@ -216,21 +201,30 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
         bashExec = PeekPlatformConfig.config.bashLocation
         pipExec = os.path.join(os.path.dirname(sys.executable), "pip")
 
-        pipArgs = [pipExec] + self.makePipArgs(directory)
-        print(' '.join(pipArgs))
-
         logger.debug("Using interpreter : %s", bashExec)
-        logger.debug("Executing command : %s", pipArgs)
 
-        commandComplete = subprocess.run(' '.join(pipArgs),
-                                         executable=bashExec,
-                                         stdout=PIPE, stderr=PIPE, shell=True)
+        ### DEBUG ###
+        self._autoDelete = False
 
-        if commandComplete.returncode:
-            raise PlatformInstallException(
-                "Failed to install platform package updates",
-                stdout=commandComplete.stdout.decode(),
-                stderr=commandComplete.stderr.decode())
+
+        for pipArgs in self.makePipArgs(directory):
+            pipArgs = [pipExec] + pipArgs
+
+            print(' '.join(pipArgs))  # DEBUG
+
+            logger.debug("Executing command : %s", pipArgs)
+
+            commandComplete = subprocess.run(' '.join(pipArgs),
+                                             executable=bashExec,
+                                             stdout=PIPE, stderr=PIPE, shell=True)
+
+            if commandComplete.returncode:
+                raise PlatformInstallException(
+                    "Failed to install platform package updates",
+                    stdout=commandComplete.stdout.decode(),
+                    stderr=commandComplete.stderr.decode())
+
+        pass
 
     # @abstractmethod
     # def _stopCode(self) -> None:

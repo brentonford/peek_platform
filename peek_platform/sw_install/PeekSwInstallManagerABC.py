@@ -11,6 +11,8 @@
 """
 import logging
 import os
+import subprocess
+from subprocess import PIPE
 import sys
 import tarfile
 import urllib.error
@@ -28,7 +30,7 @@ from txhttputil.util.DeferUtil import deferToThreadWrap
 
 logger = logging.getLogger(__name__)
 
-PEEK_PLATFORM_STAMP_FILE = 'version'
+PEEK_PLATFORM_STAMP_FILE = 'stamp'
 """Peek Platform Stamp File, The file within the release that conatins the version"""
 
 
@@ -161,6 +163,8 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
             raise Exception("Stamp file version %s doesn't match target version %s"
                             % (stampVersion, targetVersion))
 
+        print(' '.join(self.makePipArgs(directory)))
+
         pip.utils.logging._log_state.indentation = 0
         pip.main(self.makePipArgs(directory))
 
@@ -169,6 +173,7 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
         reactor.callLater(1.0, self.restartProcess)
 
         return targetVersion
+
 
     # @abstractmethod
     # def _stopCode(self) -> None:

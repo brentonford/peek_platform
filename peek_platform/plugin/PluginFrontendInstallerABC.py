@@ -4,9 +4,10 @@ import subprocess
 from collections import namedtuple
 from subprocess import PIPE
 
-from pytmpdir.DirectoryTest import isWindows
 
 from jsoncfg.value_mappers import require_string
+
+from peek_platform.WindowsPatch import isWindows
 from peek_plugin_base.PluginPackageFileConfig import PluginPackageFileConfig
 from peek_platform import PeekPlatformConfig
 from peek_platform.file_config.PeekFileConfigFrontendDirMixin import \
@@ -18,8 +19,6 @@ logger = logging.getLogger(__name__)
 PluginDetail = namedtuple("PluginDetail",
                         ["pluginRootDir", "pluginName", "angularFrontendDir",
                          "angularMainModule"])
-
-isWindows
 
 
 class _PtyOutParser:
@@ -292,7 +291,7 @@ class PluginFrontendInstallerABC(object):
             raise Exception("The angular frontend failed to build.")
 
         logger.info("Frontend distribution rebuild complete.")
-        
+
     def _compileFrontendPosix(self, feSrcDir: str) -> None:
 
         import pty

@@ -12,16 +12,15 @@
 import logging
 import os
 import subprocess
-from subprocess import PIPE
 import sys
 import tarfile
 import urllib.error
 import urllib.parse
 import urllib.request
 from abc import ABCMeta
+from subprocess import PIPE
 from typing import Optional
 
-import pip
 from pytmpdir.Directory import Directory
 from twisted.internet import reactor, defer
 from twisted.internet.defer import inlineCallbacks
@@ -32,6 +31,21 @@ logger = logging.getLogger(__name__)
 
 PEEK_PLATFORM_STAMP_FILE = 'stamp'
 """Peek Platform Stamp File, The file within the release that conatins the version"""
+
+
+class PlatformInstallException(Exception):
+    """ Platform Test Exception
+
+    This is thrown with stdout and stderr when the real install fails
+    """
+
+    def __init__(self, message, stdout, stderr):
+        self.message = message
+        self.stdout = stdout
+        self.stderr = stderr
+
+    def __str__(self):
+        return '\n'.join([self.message, self.stdout, self.stderr])
 
 
 class PeekSwInstallManagerABC(metaclass=ABCMeta):
@@ -72,11 +86,26 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
         :param directory: The directory where the peek-release is extracted to
         :return: The list of arguments to pass to pip
         """
+        requirement = "requirement"
 
         # Create an array of the package paths
+
         absFilePaths = [f.realPath
                         for f in directory.files
                         if f.name.endswith(".tar.gz")]
+
+        # Get the requirements file if it exists.
+        requirementFile = directory.getFile(name=requirement)
+
+        # Create it if it doesn't exist
+        if not requirementFile:
+            requirementFile = directory.createFile(name=requirement)
+
+        # we might as well write it again, just to make sure.
+        with requirementFile.open(write=True) as f:
+            f.write('\n')
+            f.write('\n'.join(absFilePaths))
+            f.write('\n')
 
         # Createand return the pip args
         return ['install',  # Install the packages
@@ -85,7 +114,8 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
                 '--no-index',  # Work offline, don't use pypi
                 '--find-links', directory.path,
                 # Look in the directory for dependencies
-                ] + absFilePaths
+                '--requirement', requirementFile.realPath
+                ]
 
     def notifyOfPlatformVersionUpdate(self, newVersion):
         self.installAndRestart(newVersion)
@@ -163,17 +193,44 @@ class PeekSwInstallManagerABC(metaclass=ABCMeta):
             raise Exception("Stamp file version %s doesn't match target version %s"
                             % (stampVersion, targetVersion))
 
-        print(' '.join(self.makePipArgs(directory)))
-
-        pip.utils.logging._log_state.indentation = 0
-        pip.main(self.makePipArgs(directory))
+        self._pipInstall(directory)
 
         PeekPlatformConfig.config.platformVersion = targetVersion
 
-        reactor.callLater(1.0, self.restartProcess)
+        # Call later, allow the server time to respond to the UI
+        # reactor.callLater(2.0, self.restartProcess)
 
         return targetVersion
 
+    def _pipInstall(self, directory: Directory) -> None:
+        """ Pip Install
+
+        Runs the PIP install for the packages provided in the directory
+
+        :param directory: The directory containing the
+        :return: None
+
+        """
+
+        from peek_platform import PeekPlatformConfig
+        bashExec = PeekPlatformConfig.config.bashLocation
+        pipExec = os.path.join(os.path.dirname(sys.executable), "pip")
+
+        pipArgs = [pipExec] + self.makePipArgs(directory)
+        print(' '.join(pipArgs))
+
+        logger.debug("Using interpreter : %s", bashExec)
+        logger.debug("Executing command : %s", pipArgs)
+
+        commandComplete = subprocess.run(' '.join(pipArgs),
+                                         executable=bashExec,
+                                         stdout=PIPE, stderr=PIPE, shell=True)
+
+        if commandComplete.returncode:
+            raise PlatformInstallException(
+                "Failed to install platform package updates",
+                stdout=commandComplete.stdout.decode(),
+                stderr=commandComplete.stderr.decode())
 
     # @abstractmethod
     # def _stopCode(self) -> None:
